@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="13" passed="9">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="353959" started-at="2019-09-12T18:19:22 IST" finished-at="2019-09-12T18:25:16 IST">
+  <suite name="Suite" duration-ms="57343" started-at="2019-09-13T17:54:46 IST" finished-at="2019-09-13T17:55:43 IST">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="353959" started-at="2019-09-12T18:19:22 IST" finished-at="2019-09-12T18:25:16 IST">
-      <class name="com.yatra.testscript.ValidationScript">
-        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="setBrowser" is-config="true" duration-ms="7045" started-at="2019-09-12T18:19:22 IST" finished-at="2019-09-12T18:19:29 IST">
+    <test name="Test" duration-ms="57343" started-at="2019-09-13T17:54:46 IST" finished-at="2019-09-13T17:55:43 IST">
+      <class name="com.yatra.testscript.ValidateSorting">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="setBrowser" is-config="true" duration-ms="7211" started-at="2019-09-13T17:54:46 IST" finished-at="2019-09-13T17:54:53 IST">
           <params>
             <param index="0">
               <value>
@@ -18,236 +18,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="HomePagebookingDetails()[pri:1, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="HomePagebookingDetails" duration-ms="25825" started-at="2019-09-12T18:19:29 IST" finished-at="2019-09-12T18:19:55 IST">
+        <test-method status="PASS" signature="bookingInforamtion()[pri:1, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="bookingInforamtion" duration-ms="24835" started-at="2019-09-13T17:54:53 IST" finished-at="2019-09-13T17:55:18 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePagebookingDetails -->
-        <test-method status="PASS" signature="selectHotel()[pri:2, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="selectHotel" duration-ms="1821" started-at="2019-09-12T18:19:55 IST" finished-at="2019-09-12T18:19:57 IST">
+        </test-method> <!-- bookingInforamtion -->
+        <test-method status="PASS" signature="sortedByRating()[pri:2, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="sortedByRating" duration-ms="8794" started-at="2019-09-13T17:55:18 IST" finished-at="2019-09-13T17:55:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectHotel -->
-        <test-method status="PASS" signature="switchToNextTab()[pri:3, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="switchToNextTab" duration-ms="108" started-at="2019-09-12T18:19:57 IST" finished-at="2019-09-12T18:19:57 IST">
+        </test-method> <!-- sortedByRating -->
+        <test-method status="PASS" signature="hotelSelection()[pri:3, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="hotelSelection" duration-ms="1435" started-at="2019-09-13T17:55:27 IST" finished-at="2019-09-13T17:55:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- switchToNextTab -->
-        <test-method status="PASS" signature="selectAndBookRoom()[pri:4, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="selectAndBookRoom" duration-ms="5770" started-at="2019-09-12T18:19:57 IST" finished-at="2019-09-12T18:20:03 IST">
+        </test-method> <!-- hotelSelection -->
+        <test-method status="PASS" signature="switchToHotelTab()[pri:4, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="switchToHotelTab" duration-ms="92" started-at="2019-09-13T17:55:28 IST" finished-at="2019-09-13T17:55:28 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectAndBookRoom -->
-        <test-method status="PASS" signature="userDetails()[pri:5, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="userDetails" duration-ms="4060" started-at="2019-09-12T18:20:03 IST" finished-at="2019-09-12T18:20:07 IST">
+        </test-method> <!-- switchToHotelTab -->
+        <test-method status="PASS" signature="selectRooms()[pri:5, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="selectRooms" duration-ms="4663" started-at="2019-09-13T17:55:28 IST" finished-at="2019-09-13T17:55:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userDetails -->
-        <test-method status="FAIL" signature="paymentPage()[pri:6, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="paymentPage" duration-ms="309171" started-at="2019-09-12T18:20:07 IST" finished-at="2019-09-12T18:25:16 IST">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[timeout
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-002', ip: '55.55.54.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\KISHOR~1.JOS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 60416cb6bc714d71944a003d64f4fa10
-*** Element info: {Using=xpath, value=(//div[@class='overview']//p)[1]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=76.0.3809.132)
-Build info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'
-System info: host: 'ATMECSINLT-002', ip: '55.55.54.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\KISHOR~1.JOS\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:55285}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 60416cb6bc714d71944a003d64f4fa10
-*** Element info: {Using=xpath, value=(//div[@class='overview']//p)[1]}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:445)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
-at com.yatra.helper.HelperClass.getAtributeValue(HelperClass.java:24)
-at com.yatra.testscript.BookingDetails.paymentPage(BookingDetails.java:124)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        </test-method> <!-- selectRooms -->
+        <test-method status="PASS" signature="userInformation()[pri:6, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="userInformation" duration-ms="4656" started-at="2019-09-13T17:55:33 IST" finished-at="2019-09-13T17:55:37 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentPage -->
-        <test-method status="PASS" signature="validateHotelNameAtBookingPage()[pri:7, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateHotelNameAtBookingPage" duration-ms="8" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
+        </test-method> <!-- userInformation -->
+        <test-method status="PASS" signature="paymentPageInformation()[pri:7, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="paymentPageInformation" duration-ms="5543" started-at="2019-09-13T17:55:37 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateHotelNameAtBookingPage -->
-        <test-method status="PASS" signature="validateHotelNameAtPaymentPage()[pri:8, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateHotelNameAtPaymentPage" duration-ms="4" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
+        </test-method> <!-- paymentPageInformation -->
+        <test-method status="PASS" signature="validateName()[pri:8, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="validateName" duration-ms="8" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateHotelNameAtPaymentPage -->
-        <test-method status="PASS" signature="validateLocationAtBookingPage()[pri:9, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateLocationAtBookingPage" duration-ms="3" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
+        </test-method> <!-- validateName -->
+        <test-method status="PASS" signature="validateCost()[pri:9, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="validateCost" duration-ms="5" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLocationAtBookingPage -->
-        <test-method status="FAIL" signature="validateLocationAtPaymentPage()[pri:10, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateLocationAtPaymentPage" duration-ms="2" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.yatra.base.Validation.validateHotelPlace(Validation.java:62)
-at com.yatra.testscript.ValidationScript.validateLocationAtPaymentPage(ValidationScript.java:29)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- validateCost -->
+        <test-method status="PASS" signature="validatePlace()[pri:10, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="validatePlace" duration-ms="2" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLocationAtPaymentPage -->
-        <test-method status="PASS" signature="validateSelectedHotelRating()[pri:11, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateSelectedHotelRating" duration-ms="2" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
+        </test-method> <!-- validatePlace -->
+        <test-method status="PASS" signature="validateRating()[pri:11, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="validateRating" duration-ms="3" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSelectedHotelRating -->
-        <test-method status="FAIL" signature="validateHotelCostAtPayment()[pri:12, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateHotelCostAtPayment" duration-ms="8" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.yatra.base.Validation.convertToInteger(Validation.java:31)
-at com.yatra.base.Validation.validateCost(Validation.java:18)
-at com.yatra.testscript.ValidationScript.validateHotelCostAtPayment(ValidationScript.java:38)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- validateRating -->
+        <test-method status="PASS" signature="validateSortByRatings()[pri:12, instance:com.yatra.testscript.ValidateSorting@cb51256]" name="validateSortByRatings" duration-ms="3" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateHotelCostAtPayment -->
-        <test-method status="FAIL" signature="validateHotelCostAtUPI()[pri:12, instance:com.yatra.testscript.ValidationScript@72b6cbcc]" name="validateHotelCostAtUPI" duration-ms="3" started-at="2019-09-12T18:25:16 IST" finished-at="2019-09-12T18:25:16 IST">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.yatra.base.Validation.convertToInteger(Validation.java:31)
-at com.yatra.base.Validation.validateCost(Validation.java:18)
-at com.yatra.testscript.ValidationScript.validateHotelCostAtUPI(ValidationScript.java:42)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateHotelCostAtUPI -->
-      </class> <!-- com.yatra.testscript.ValidationScript -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- validateSortByRatings -->
+      </class> <!-- com.yatra.testscript.ValidateSorting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Test-class Suite" duration-ms="0" started-at="2019-09-13T17:55:43 IST" finished-at="2019-09-13T17:55:43 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Test-class Suite -->
 </testng-results>

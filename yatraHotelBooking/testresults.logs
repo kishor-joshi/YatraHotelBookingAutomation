@@ -1,0 +1,512 @@
+2019-09-13 11:09:36 INFO  BookingDetails:55 - https://www.yatra.com/ website opened
+2019-09-13 11:09:48 INFO  BookingDetails:75 - Hotel searched location is Bangalore
+2019-09-13 11:09:48 INFO  BookingDetails:76 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 11:10:07 INFO  BookingDetails:141 - user datails in roomNo.1 ram kumar
+2019-09-13 11:10:07 INFO  BookingDetails:142 - user datails in roomNo.1 ramesh krishna
+2019-09-13 11:10:13 INFO  BookingDetails:155 - Booking Details:
+2019-09-13 11:10:13 INFO  BookingDetails:156 - Hotel Name: null
+2019-09-13 11:10:13 INFO  BookingDetails:157 - Hotel Address: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157
+2019-09-13 11:10:13 INFO  BookingDetails:158 - no. of rooms: 2 no. of persons: 5
+2019-09-13 11:10:13 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 11:10:13 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 11:10:13 INFO  BookingDetails:25 - PASSED : actualHotelCost is 25860 expectedHotelCost is 25860
+2019-09-13 11:10:13 INFO  BookingDetails:25 - PASSED : actualHotelCost is 25860 expectedHotelCost is 25860
+2019-09-13 11:19:18 INFO  BookingDetails:55 - https://www.yatra.com/ website opened
+2019-09-13 11:19:30 INFO  BookingDetails:75 - Hotel searched location is Bangalore
+2019-09-13 11:19:30 INFO  BookingDetails:76 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 11:19:44 INFO  BookingDetails:141 - user datails in roomNo.1 ram kumar
+2019-09-13 11:19:44 INFO  BookingDetails:142 - user datails in roomNo.1 ramesh krishna
+2019-09-13 11:19:49 INFO  BookingDetails:155 - Booking Details:
+2019-09-13 11:19:49 INFO  BookingDetails:156 - Hotel Name: Ample Inn
+2019-09-13 11:19:49 INFO  BookingDetails:157 - Hotel Address: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157
+2019-09-13 11:19:49 INFO  BookingDetails:158 - no. of rooms: 2 no. of persons: 5
+2019-09-13 11:19:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 11:19:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 11:19:49 INFO  BookingDetails:74 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 11:19:49 INFO  BookingDetails:74 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 11:19:49 INFO  BookingDetails:56 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 11:19:49 INFO  BookingDetails:25 - PASSED : actualHotelCost is 25860 expectedHotelCost is 25860
+2019-09-13 11:19:49 INFO  BookingDetails:25 - PASSED : actualHotelCost is 25860 expectedHotelCost is 25860
+2019-09-13 13:06:36 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:07:02 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:07:02 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:07:16 INFO  BookingDetails:84 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:07:16 INFO  BookingDetails:85 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:07:42 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:07:42 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:07:53 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:07:53 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:07:53 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:07:53 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:07:53 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:07:53 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:07:53 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:07:53 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:07:53 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:07:53 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:07:53 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:11:08 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:11:36 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:11:36 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:11:49 INFO  BookingDetails:89 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:11:49 INFO  BookingDetails:90 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:12:56 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:12:56 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:13:34 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:13:34 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:13:34 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:13:34 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:13:34 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:13:34 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:13:34 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:13:34 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:13:34 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:13:34 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:13:34 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:16:22 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:16:52 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:16:52 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:17:06 INFO  BookingDetails:90 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:17:06 INFO  BookingDetails:91 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:17:27 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:17:27 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:17:35 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:17:35 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:17:35 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:17:35 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:17:35 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:17:35 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:17:35 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:17:35 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:17:35 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:17:35 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:17:35 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:19:21 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:19:51 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:19:51 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:20:04 INFO  BookingDetails:90 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:20:04 INFO  BookingDetails:91 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:20:35 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:20:35 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:20:35 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:20:35 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:20:35 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:20:35 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:20:35 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:20:35 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:20:35 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:20:35 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:20:35 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:25:41 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:26:04 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:26:04 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:26:14 INFO  BookingDetails:90 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:26:14 INFO  BookingDetails:91 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:26:30 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:26:30 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:26:39 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:26:39 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:26:39 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:26:39 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:26:39 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:26:39 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:26:39 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:26:39 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:26:39 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:26:39 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:26:39 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:28:16 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:28:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 13:28:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 13:29:23 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:29:43 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:29:43 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:29:54 INFO  BookingDetails:90 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:29:54 INFO  BookingDetails:91 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:30:09 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:30:09 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:30:16 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:30:16 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:30:16 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:30:16 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:30:16 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:30:16 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:30:16 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:30:16 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:30:16 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:30:16 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:30:16 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:34:19 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:34:38 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:34:38 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:34:48 INFO  BookingDetails:92 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:34:48 INFO  BookingDetails:93 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:35:05 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:35:05 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:35:14 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:35:14 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:35:14 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:35:14 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:35:14 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:35:14 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:35:14 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:35:14 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:35:14 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:35:14 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:35:14 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:38:33 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:38:47 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:38:47 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:39:18 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:39:18 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:39:24 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:39:24 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:39:24 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:39:24 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:39:25 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:39:25 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:39:25 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:39:25 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:39:25 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:39:25 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:39:25 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:40:48 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 13:41:08 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 13:41:08 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 13:41:18 INFO  BookingDetails:92 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:41:18 INFO  BookingDetails:93 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 13:41:34 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 13:41:34 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 13:41:42 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 13:41:42 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 13:41:42 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 13:41:42 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 13:41:42 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:41:42 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 13:41:42 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 13:41:42 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 13:41:42 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 13:41:42 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 13:41:42 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:30:07 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:30:44 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 14:30:44 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 14:31:15 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:31:31 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 14:31:31 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 14:31:48 INFO  BookingDetails:92 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 14:31:48 INFO  BookingDetails:93 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 14:32:05 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 14:32:05 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 14:32:12 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 14:32:12 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 14:32:12 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 14:32:12 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 14:32:12 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:32:12 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:32:12 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 14:32:12 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 14:32:12 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 14:32:12 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:32:12 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:37:04 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:37:27 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 14:37:27 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 14:37:38 INFO  BookingDetails:93 - PASSED:  actualHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 14:37:38 INFO  BookingDetails:94 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 14:37:55 INFO  BookingDetails:145 - user datails in roomNo.1 ram kumar
+2019-09-13 14:37:55 INFO  BookingDetails:146 - user datails in roomNo.1 ramesh krishna
+2019-09-13 14:38:04 INFO  BookingDetails:159 - Booking Details:
+2019-09-13 14:38:04 INFO  BookingDetails:160 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 14:38:04 INFO  BookingDetails:161 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 14:38:04 INFO  BookingDetails:162 - no. of rooms: 2 no. of persons: 5
+2019-09-13 14:38:04 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:38:04 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:38:04 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 14:38:04 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 14:38:04 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 14:38:04 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:38:04 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:48:03 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:48:20 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 14:48:20 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 14:48:38 INFO  BookingDetails:93 - PASSED:  actualHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3, 2.5]
+2019-09-13 14:48:38 INFO  BookingDetails:94 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3, 2.5]
+2019-09-13 14:49:03 INFO  BookingDetails:160 - Booking Details:
+2019-09-13 14:49:03 INFO  BookingDetails:161 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-13 14:49:03 INFO  BookingDetails:162 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-13 14:49:03 INFO  BookingDetails:163 - no. of rooms: 2 no. of persons: 5
+2019-09-13 14:49:03 INFO  BookingDetails:44 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-13 14:49:03 INFO  BookingDetails:44 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-13 14:49:03 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Bangalore
+2019-09-13 14:49:03 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: New Delhi, India expectedHotelAddress is: Bangalore
+2019-09-13 14:49:03 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-13 14:49:03 INFO  BookingDetails:28 - PASSED : actualHotelCost is 37755 expectedHotelCost is 37755
+2019-09-13 14:49:03 INFO  BookingDetails:28 - PASSED : actualHotelCost is 37755 expectedHotelCost is 37755
+2019-09-13 14:50:59 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:51:23 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 14:51:23 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 14:51:59 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 14:52:17 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 14:52:17 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 14:52:27 INFO  BookingDetails:97 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 14:52:27 INFO  BookingDetails:98 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 14:52:38 INFO  BookingDetails:146 - user datails in roomNo.1 ram kumar
+2019-09-13 14:52:38 INFO  BookingDetails:147 - user datails in roomNo.1 ramesh krishna
+2019-09-13 14:52:45 INFO  BookingDetails:160 - Booking Details:
+2019-09-13 14:52:45 INFO  BookingDetails:161 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 14:52:45 INFO  BookingDetails:162 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 14:52:45 INFO  BookingDetails:163 - no. of rooms: 2 no. of persons: 5
+2019-09-13 14:52:45 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:52:45 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 14:52:45 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 14:52:45 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 14:52:45 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 14:52:45 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 14:52:45 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:00:18 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 15:00:30 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 15:00:30 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 15:00:42 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:00:42 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 15:00:53 INFO  BookingDetails:146 - user datails in roomNo.1 ram kumar
+2019-09-13 15:00:53 INFO  BookingDetails:147 - user datails in roomNo.2 ramesh krishna
+2019-09-13 15:03:40 INFO  BookingDetails:60 - https://www.yatra.com/ website opened
+2019-09-13 15:03:53 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 15:03:53 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 15:04:07 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:04:07 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 15:04:19 INFO  BookingDetails:146 - user datails in roomNo.1 ram kumar
+2019-09-13 15:04:19 INFO  BookingDetails:147 - user datails in roomNo.2 ramesh krishna
+2019-09-13 15:04:26 INFO  BookingDetails:160 - Booking Details:
+2019-09-13 15:04:26 INFO  BookingDetails:161 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 15:04:26 INFO  BookingDetails:162 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 15:04:26 INFO  BookingDetails:163 - no. of rooms: 2 no. of persons: 5
+2019-09-13 15:04:26 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:04:26 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:04:26 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 15:04:26 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 15:04:26 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 15:04:26 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:04:26 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:04:26 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:04:26 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 15:05:58 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:05:58 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:05:58 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 15:05:58 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 15:05:58 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 15:05:58 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:05:58 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 15:19:00 INFO  BookingDetails:61 - https://www.yatra.com/ website opened
+2019-09-13 15:20:23 INFO  BookingDetails:61 - https://www.yatra.com/ website opened
+2019-09-13 15:20:36 INFO  BookingDetails:79 - Hotel searched location is Bangalore
+2019-09-13 15:20:36 INFO  BookingDetails:80 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 15:20:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 15:20:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 15:21:00 INFO  BookingDetails:143 - user datails in roomNo.1 ram kumar
+2019-09-13 15:21:00 INFO  BookingDetails:144 - user datails in roomNo.2 ramesh krishna
+2019-09-13 15:21:07 INFO  BookingDetails:157 - Booking Details:
+2019-09-13 15:21:07 INFO  BookingDetails:158 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 15:21:07 INFO  BookingDetails:159 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 15:21:07 INFO  BookingDetails:160 - no. of rooms: 2 no. of persons: 5
+2019-09-13 15:21:07 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:21:07 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:21:07 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 15:21:07 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 15:21:07 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 15:21:07 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:21:07 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:21:07 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:21:07 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 15:21:56 INFO  BookingDetails:61 - https://www.yatra.com/ website opened
+2019-09-13 15:22:12 INFO  BookingDetails:79 - Hotel searched location is Bangalore
+2019-09-13 15:22:12 INFO  BookingDetails:80 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 15:22:33 INFO  BookingDetails:143 - user datails in roomNo.1 ram kumar
+2019-09-13 15:22:33 INFO  BookingDetails:144 - user datails in roomNo.2 ramesh krishna
+2019-09-13 15:22:39 INFO  BookingDetails:157 - Booking Details:
+2019-09-13 15:22:39 INFO  BookingDetails:158 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 15:22:39 INFO  BookingDetails:159 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 15:22:39 INFO  BookingDetails:160 - no. of rooms: 2 no. of persons: 5
+2019-09-13 15:22:39 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:22:39 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 15:22:39 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 15:22:39 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 15:22:39 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 15:22:39 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:22:39 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 15:22:39 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 15:22:39 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 16:16:46 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:16:58 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:16:58 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:24:37 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:24:53 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:24:53 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:28:16 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:28:29 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:28:29 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:28:54 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 16:28:54 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 16:29:04 INFO  BookingDetails:158 - Booking Details:
+2019-09-13 16:29:04 INFO  BookingDetails:159 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 16:29:04 INFO  BookingDetails:160 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 16:29:04 INFO  BookingDetails:161 - no. of rooms: 2 no. of persons: 5
+2019-09-13 16:45:32 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:45:44 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:45:44 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:46:15 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 16:46:15 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 16:46:22 INFO  BookingDetails:158 - Booking Details:
+2019-09-13 16:46:22 INFO  BookingDetails:159 - Hotel Name: Ample Inn
+2019-09-13 16:46:22 INFO  BookingDetails:160 - Hotel Address: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157
+2019-09-13 16:46:22 INFO  BookingDetails:161 - no. of rooms: 2 no. of persons: 5
+2019-09-13 16:48:10 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:48:21 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:48:21 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:48:55 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 16:48:55 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 16:48:55 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 16:48:55 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 16:48:55 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 16:48:55 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 16:53:32 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:53:44 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:53:44 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:54:16 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 16:54:16 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 16:54:16 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 16:54:16 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 16:54:16 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 16:54:16 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 16:56:55 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 16:57:10 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 16:57:10 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 16:57:40 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 16:57:40 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 16:57:40 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 16:57:40 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 16:57:41 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 16:57:41 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 17:04:36 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:04:48 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:04:48 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:05:19 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 17:05:19 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:05:19 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 17:05:19 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 17:05:19 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 17:05:19 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 17:14:37 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:14:56 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:14:56 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:15:31 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 17:15:31 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:15:31 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 17:15:31 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 17:15:31 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 17:15:31 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 17:18:21 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:18:36 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:18:36 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:19:10 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 17:19:10 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:19:10 INFO  BookingDetails:43 - PASSED : actualHotelName is: Ample Inn expectedHotelName is: Ample Inn
+2019-09-13 17:19:10 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Ample Inn
+2019-09-13 17:19:10 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: No.10, T.Govindaswamy Layout, Tharabhanahalli, Chikkajala Post, International Airport, Bangalore, 562157 expectedHotelAddress is: Bangalore
+2019-09-13 17:19:10 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-13 17:21:43 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:21:58 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:21:58 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:22:31 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:22:31 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:22:31 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:22:32 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:22:32 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:22:32 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 17:24:09 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:24:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 17:24:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-13 17:25:17 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:25:37 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:25:37 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:26:03 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 17:26:03 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:26:03 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:26:03 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:26:03 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:26:03 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:26:03 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:26:03 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 17:33:10 INFO  BookingDetails:62 - https://www.yatra.com/ website opened
+2019-09-13 17:33:26 INFO  BookingDetails:80 - Hotel searched location is Bangalore
+2019-09-13 17:33:26 INFO  BookingDetails:81 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:33:45 INFO  BookingDetails:144 - user datails in roomNo.1 ram kumar
+2019-09-13 17:33:45 INFO  BookingDetails:145 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:33:51 INFO  BookingDetails:158 - Booking Details:
+2019-09-13 17:33:51 INFO  BookingDetails:159 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 17:33:51 INFO  BookingDetails:160 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 17:33:51 INFO  BookingDetails:161 - no. of rooms: 2 no. of persons: 5
+2019-09-13 17:33:51 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:33:51 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:33:51 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:33:51 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:33:51 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:33:51 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 17:33:51 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:33:51 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:33:51 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 17:43:29 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-13 17:43:45 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-13 17:43:45 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:44:05 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-13 17:44:05 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:44:12 INFO  BookingDetails:175 - Booking Details:
+2019-09-13 17:44:12 INFO  BookingDetails:176 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 17:44:12 INFO  BookingDetails:177 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 17:44:12 INFO  BookingDetails:178 - no. of rooms: 2 no. of persons: 5
+2019-09-13 17:44:12 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:44:12 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:44:12 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:44:12 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:44:12 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:44:12 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 17:44:12 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:44:12 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:44:12 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 17:48:59 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-13 17:49:11 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-13 17:49:11 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:49:37 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-13 17:49:37 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:49:43 INFO  BookingDetails:175 - Booking Details:
+2019-09-13 17:49:43 INFO  BookingDetails:176 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 17:49:43 INFO  BookingDetails:177 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 17:49:43 INFO  BookingDetails:178 - no. of rooms: 2 no. of persons: 5
+2019-09-13 17:49:43 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:49:43 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:49:43 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:49:43 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:49:43 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:49:43 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 17:49:43 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:49:43 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:49:43 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-13 17:55:02 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-13 17:55:18 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-13 17:55:18 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-13 17:55:37 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-13 17:55:37 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-13 17:55:43 INFO  BookingDetails:175 - Booking Details:
+2019-09-13 17:55:43 INFO  BookingDetails:176 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-13 17:55:43 INFO  BookingDetails:177 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-13 17:55:43 INFO  BookingDetails:178 - no. of rooms: 2 no. of persons: 5
+2019-09-13 17:55:43 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:55:43 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-13 17:55:43 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:55:43 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-13 17:55:43 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-13 17:55:43 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-13 17:55:43 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-13 17:55:43 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
+2019-09-13 17:55:43 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]

@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test2">
   <parameter name="selecteddriver" value="chrome" />
     <classes>
-      <class name="com.yatra.testscript.ValidationScript"/>
+      <class name="com.yatra.base.ValidationScript"/>
     </classes>
   </test> <!-- Test2 -->
 </suite> <!-- Suite1 -->

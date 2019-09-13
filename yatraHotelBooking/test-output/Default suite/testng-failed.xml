@@ -3,17 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.yatra.testscript.BookingDetails">
+      <class name="com.yatra.testscript.PaymentPage">
         <methods>
-          <include name="HomePagebookingDetails"/>
-          <include name="userDetails"/>
-          <include name="selectHotel"/>
-          <include name="paymentPage"/>
-          <include name="selectAndBookRoom"/>
-          <include name="switchToNextTab"/>
+          <include name="switchToHotelTab"/>
+          <include name="paymentPageInformation"/>
+          <include name="userInformation"/>
+          <include name="selectRooms"/>
+          <include name="hotelSelection"/>
+          <include name="sortedByRating"/>
+          <include name="bookingInforamtion"/>
           <include name="setBrowser"/>
         </methods>
-      </class> <!-- com.yatra.testscript.BookingDetails -->
+      </class> <!-- com.yatra.testscript.PaymentPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
