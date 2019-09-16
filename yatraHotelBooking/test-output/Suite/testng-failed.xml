@@ -2,11 +2,23 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="selecteddriver" value="chrome"/>
     <classes>
       <class name="com.yatra.testscript.ValidateSorting">
         <methods>
+          <include name="switchToHotelTab"/>
+          <include name="validateName"/>
+          <include name="validateCheckIn"/>
           <include name="validateCost"/>
+          <include name="selectRooms"/>
+          <include name="validateRating"/>
+          <include name="hotelSelection"/>
+          <include name="validateTotalMembers"/>
+          <include name="validateTotalRooms"/>
+          <include name="paymentPageInformation"/>
+          <include name="validateSortByRatings"/>
+          <include name="userInformation"/>
+          <include name="sortedByRating"/>
+          <include name="bookingInforamtion"/>
           <include name="setBrowser"/>
           <include name="validatePlace"/>
         </methods>

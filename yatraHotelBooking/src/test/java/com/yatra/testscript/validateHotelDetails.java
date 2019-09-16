@@ -2,31 +2,45 @@ package com.yatra.testscript;
 
 import org.testng.annotations.Test;
 
-
+/**
+ * 
+ * @author kishor.joshi
+ *
+ */
 public class validateHotelDetails extends PaymentPage{
 	
+	/**
+	 * validates Hotel name.
+	 */
 @Test(priority=8)
 public void validateName(){
-	validate.validateHotelNameAtBookingPage(driver);
-	validate.validateHotelNameAtPaymentPage(driver);
+	validate.validateHotelNameAtBookingPage();
+	validate.validateHotelNameAtPaymentPage();
 }
 
-
+/**
+ * validates Hotel prices.
+ */
 @Test(priority=9)
 public void validateCost() {
-	validate.validateHotelCostAtPayment(driver);
-	validate.validateHotelCostAtUPI(driver);
+	validate.validateHotelCostAtPayment();
+	validate.validateHotelCostAtUPI();
 }
 
+/**
+ * validates hotel location
+ */
 @Test(priority=10)
 public void validatePlace() {
-	validate.validateLocationAtBookingPage(driver);
-	validate.validateLocationAtPaymentPage(driver);
+	validate.validateLocationAtBookingPage();
+	validate.validateLocationAtPaymentPage();
 }
 
-
+/**
+ * validates hotel rating
+ */
 @Test(priority=11)
 public void validateRating() {
-	validate.validateSelectedHotelRating(driver);
+	validate.validateSelectedHotelRating();
 }
 }

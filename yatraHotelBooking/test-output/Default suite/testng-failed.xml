@@ -3,6 +3,45 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+      <class name="com.yatra.testscript.validateHotelDetails">
+        <methods>
+          <include name="switchToHotelTab"/>
+          <include name="paymentPageInformation"/>
+          <include name="userInformation"/>
+          <include name="validateCost"/>
+          <include name="selectRooms"/>
+          <include name="hotelSelection"/>
+          <include name="sortedByRating"/>
+          <include name="bookingInforamtion"/>
+          <include name="setBrowser"/>
+          <include name="validatePlace"/>
+        </methods>
+      </class> <!-- com.yatra.testscript.validateHotelDetails -->
+      <class name="com.yatra.testscript.ValidateSorting">
+        <methods>
+          <include name="switchToHotelTab"/>
+          <include name="paymentPageInformation"/>
+          <include name="validateSortByRatings"/>
+          <include name="userInformation"/>
+          <include name="validateCheckIn"/>
+          <include name="validateCost"/>
+          <include name="selectRooms"/>
+          <include name="hotelSelection"/>
+          <include name="sortedByRating"/>
+          <include name="bookingInforamtion"/>
+          <include name="setBrowser"/>
+          <include name="validatePlace"/>
+        </methods>
+      </class> <!-- com.yatra.testscript.ValidateSorting -->
+      <class name="com.yatra.testscript.HomePage">
+        <methods>
+          <include name="switchToHotelTab"/>
+          <include name="hotelSelection"/>
+          <include name="sortedByRating"/>
+          <include name="bookingInforamtion"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.yatra.testscript.HomePage -->
       <class name="com.yatra.testscript.PaymentPage">
         <methods>
           <include name="switchToHotelTab"/>
@@ -15,6 +54,12 @@
           <include name="setBrowser"/>
         </methods>
       </class> <!-- com.yatra.testscript.PaymentPage -->
+      <class name="com.yatra.testscript.RoomBooking">
+        <methods>
+          <include name="sortedByRating"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- com.yatra.testscript.RoomBooking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

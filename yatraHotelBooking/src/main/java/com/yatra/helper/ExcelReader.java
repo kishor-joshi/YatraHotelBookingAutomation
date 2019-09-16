@@ -6,10 +6,20 @@ import java.io.IOException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-
+/**
+ * 
+ * @author kishor.joshi
+ *
+ */
 public class ExcelReader {
-	public static String[][] getUserData(String file) throws IOException {
-		FileInputStream fileInput = new FileInputStream(file);
+	/**this method read user Data from excel sheet 
+	 * 
+	 * @param filePath
+	 * @return String[][]
+	 * @throws IOException
+	 */
+	public static String[][] getUserData(String filePath) throws IOException {
+		FileInputStream fileInput = new FileInputStream(filePath);
 		XSSFWorkbook book = new XSSFWorkbook(fileInput);
 		org.apache.poi.ss.usermodel.Sheet sheet = book.getSheetAt(0);
 		int row1 = sheet.getLastRowNum();

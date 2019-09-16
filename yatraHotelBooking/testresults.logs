@@ -510,3 +510,785 @@
 2019-09-13 17:55:43 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
 2019-09-13 17:55:43 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 3.5, 4, 4, 3.5, 3.5]
 2019-09-13 17:55:43 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5]
+2019-09-14 14:28:56 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-14 14:29:01 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:29:01 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:29:45 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-14 14:29:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:29:49 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:34:49 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-14 14:35:21 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-14 14:35:21 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-14 14:35:52 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-14 14:35:52 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-14 14:36:02 INFO  BookingDetails:175 - Booking Details:
+2019-09-14 14:36:02 INFO  BookingDetails:176 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-14 14:36:02 INFO  BookingDetails:177 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-14 14:36:02 INFO  BookingDetails:178 - no. of rooms: 2 no. of persons: 5
+2019-09-14 14:36:02 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-14 14:36:02 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-14 14:36:02 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-14 14:36:02 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-14 14:36:02 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-14 14:36:02 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-14 14:36:02 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-14 14:46:28 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-14 14:46:32 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:46:32 INFO  BookingDetails:43 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-14 14:47:32 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-14 14:48:30 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-14 14:48:30 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-14 14:50:17 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-14 14:50:17 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-14 14:51:09 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-14 14:51:09 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-14 14:51:09 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-14 14:51:09 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-14 14:51:09 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-14 14:51:09 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 10:09:33 INFO  BookingDetails:66 - https://www.yatra.com/ website opened
+2019-09-16 10:09:46 INFO  BookingDetails:84 - Hotel searched location is Bangalore
+2019-09-16 10:09:46 INFO  BookingDetails:85 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 10:10:19 INFO  BookingDetails:159 - user datails in roomNo.1 ram kumar
+2019-09-16 10:10:19 INFO  BookingDetails:160 - user datails in roomNo.2 ramesh krishna
+2019-09-16 10:10:25 INFO  BookingDetails:175 - Booking Details:
+2019-09-16 10:10:25 INFO  BookingDetails:176 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 10:10:25 INFO  BookingDetails:177 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 10:10:25 INFO  BookingDetails:178 - no. of rooms: 2 no. of persons: 5
+2019-09-16 10:10:25 INFO  BookingDetails:43 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 10:10:25 INFO  BookingDetails:46 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 10:10:25 INFO  BookingDetails:30 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 10:10:25 INFO  BookingDetails:30 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 10:10:25 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 10:10:25 INFO  BookingDetails:70 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 10:10:25 INFO  BookingDetails:54 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 10:10:25 INFO  BookingDetails:85 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 10:10:25 INFO  BookingDetails:86 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 11:45:51 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 11:46:41 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:46:41 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:46:41 INFO  BookingDetails:98 - Failed check in date not matched actualHotelRating is: null expectedHotelRating is: 27October
+2019-09-16 11:47:21 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 11:47:35 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 11:47:35 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 11:48:01 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 11:48:01 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 11:48:08 INFO  BookingDetails:181 - Booking Details:
+2019-09-16 11:48:08 INFO  BookingDetails:182 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 11:48:08 INFO  BookingDetails:183 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 11:48:08 INFO  BookingDetails:184 - no. of rooms: 2 no. of persons: 5
+2019-09-16 11:48:08 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 11:48:08 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 11:48:08 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 11:48:08 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 11:48:08 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 11:48:08 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 11:48:08 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 11:48:08 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 11:48:08 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 11:48:08 INFO  BookingDetails:98 - Failed check in date not matched actualHotelRating is: October October  expectedHotelRating is: 27October
+2019-09-16 11:50:58 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 11:51:24 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:51:24 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:51:24 INFO  BookingDetails:98 - Failed check in date not matched actualHotelRating is: null expectedHotelRating is: 27October
+2019-09-16 11:51:50 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 11:52:32 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:52:32 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 11:52:32 INFO  BookingDetails:98 - Failed check in date not matched actualHotelRating is: null expectedHotelRating is: 27October
+2019-09-16 11:54:19 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 11:54:35 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 11:54:35 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 11:54:54 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 11:54:54 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 11:55:01 INFO  BookingDetails:181 - Booking Details:
+2019-09-16 11:55:01 INFO  BookingDetails:182 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 11:55:01 INFO  BookingDetails:183 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 11:55:01 INFO  BookingDetails:184 - no. of rooms: 2 no. of persons: 5
+2019-09-16 11:55:01 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 11:55:01 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 11:55:01 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 11:55:01 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 11:55:01 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 11:55:01 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 11:55:01 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 11:55:01 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 11:55:01 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 11:55:01 INFO  BookingDetails:98 - Failed check in date not matched actualHotelRating is: 27October  expectedHotelRating is: 27October
+2019-09-16 12:00:13 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:00:26 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:00:26 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:00:53 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 12:00:53 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 12:01:00 INFO  BookingDetails:181 - Booking Details:
+2019-09-16 12:01:00 INFO  BookingDetails:182 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 12:01:00 INFO  BookingDetails:183 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 12:01:00 INFO  BookingDetails:184 - no. of rooms: 2 no. of persons: 5
+2019-09-16 12:01:00 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:01:00 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:01:00 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:01:00 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:01:00 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 12:01:00 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 12:01:00 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 12:01:00 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 12:01:00 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 12:01:00 INFO  BookingDetails:99 - PASSED:  actualHotelRating is: 27October  expectedHotelRating is: 27October
+2019-09-16 12:08:40 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:08:54 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:08:54 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:09:25 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Monarch Luxur
+2019-09-16 12:09:25 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Monarch Luxur
+2019-09-16 12:09:25 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 12:10:20 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:10:37 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:10:37 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:10:56 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 12:10:56 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 12:11:03 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 12:11:03 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 12:11:03 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 12:11:03 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 12:11:03 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:11:03 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:11:03 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:11:03 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:11:03 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 12:11:03 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 12:11:03 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 12:11:03 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 12:11:03 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 12:11:03 INFO  BookingDetails:99 - PASSED:  actualHotelRating is: 27October  expectedHotelRating is: 27October
+2019-09-16 12:11:03 INFO  BookingDetails:99 - PASSED:  actualHotelRating is: 29October  expectedHotelRating is: 29October
+2019-09-16 12:20:19 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:20:35 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:20:35 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:20:54 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 12:20:54 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 12:21:00 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 12:21:00 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 12:21:00 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 12:21:00 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 12:21:00 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:21:00 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:21:00 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:21:00 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:21:00 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 12:21:00 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 12:21:00 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 12:21:00 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 12:21:00 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 12:21:00 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 12:21:00 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 12:38:05 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:38:18 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:38:18 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:38:43 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 12:38:43 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 12:38:51 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 12:38:51 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 12:38:51 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 12:38:51 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 12:38:51 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:38:51 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:38:51 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:38:51 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:38:51 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 12:38:51 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 12:38:51 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 12:38:51 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 12:38:51 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 12:38:51 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 12:38:51 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 12:38:51 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 12:38:51 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 12:52:08 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 12:52:24 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 12:52:24 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 12:52:40 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 12:52:40 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 12:52:43 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 12:52:43 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 12:52:44 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 12:52:44 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 12:52:44 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:52:44 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 12:52:44 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:52:44 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 12:52:44 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 12:52:44 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 12:52:44 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 12:52:44 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 12:52:44 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 12:52:44 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 12:52:44 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 12:52:44 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 12:52:44 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 13:00:26 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 13:00:38 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 13:00:38 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 13:00:56 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 13:00:56 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 13:00:56 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Monarch Luxur expectedHotelName is: The Monarch Luxur
+2019-09-16 13:00:56 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Monarch Luxur
+2019-09-16 13:00:56 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Monarch Luxur expectedHotelName is: The Monarch Luxur
+2019-09-16 13:00:56 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Monarch Luxur
+2019-09-16 13:00:56 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: 67, Infantry Road, Tasker Town, Shivaji Nagar,, Bangalore, 560001 expectedHotelAddress is: Bangalore
+2019-09-16 13:00:56 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: 67, Infantry Road, Tasker Town, Shivaji Nagar,, Bangalore, 560001 expectedHotelAddress is: Bangalore
+2019-09-16 13:00:56 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 13:00:56 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 13:00:56 INFO  BookingDetails:113 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 13:00:56 INFO  BookingDetails:122 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 13:09:01 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 13:09:14 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 13:09:14 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 13:09:32 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 13:09:32 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 13:09:37 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 13:09:37 INFO  BookingDetails:185 - Hotel Name: The Monarch Luxur
+2019-09-16 13:09:37 INFO  BookingDetails:186 - Hotel Address: 67, Infantry Road, Tasker Town, Shivaji Nagar,, Bangalore, 560001
+2019-09-16 13:09:37 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 13:09:37 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Monarch Luxur expectedHotelName is: The Monarch Luxur
+2019-09-16 13:09:37 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Monarch Luxur expectedHotelName is: The Monarch Luxur
+2019-09-16 13:09:37 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 18323 expectedHotelCost is 18322
+2019-09-16 13:09:37 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 18323 expectedHotelCost is 18322
+2019-09-16 13:09:37 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: 67, Infantry Road, Tasker Town, Shivaji Nagar,, Bangalore, 560001 expectedHotelAddress is: Bangalore
+2019-09-16 13:09:37 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 13:09:37 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 13:09:37 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 13:09:37 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 13:09:37 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 13:09:37 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 13:11:17 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 13:11:29 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 13:11:29 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 13:11:55 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 13:11:55 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 13:12:01 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 13:12:01 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 13:12:01 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 13:12:01 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 13:12:01 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:12:01 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:12:01 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 13:12:01 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 13:12:01 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 13:12:01 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 13:12:01 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 13:12:01 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 13:12:01 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 13:12:01 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 13:12:01 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 13:12:01 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 13:12:01 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 13:22:05 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 13:22:17 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 13:22:17 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 13:22:42 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 13:22:42 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 13:22:49 INFO  BookingDetails:184 - Booking Details:
+2019-09-16 13:22:49 INFO  BookingDetails:185 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 13:22:49 INFO  BookingDetails:186 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 13:22:49 INFO  BookingDetails:187 - no. of rooms: 2 no. of persons: 5
+2019-09-16 13:22:49 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:22:49 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:22:49 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 13:22:49 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 58365
+2019-09-16 13:22:49 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 13:22:49 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 13:22:49 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 13:22:49 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 13:22:49 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 13:22:49 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 13:22:49 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 13:22:49 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 13:22:49 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 13:27:40 INFO  BookingDetails:68 - https://www.yatra.com/ website opened
+2019-09-16 13:27:56 INFO  BookingDetails:86 - Hotel searched location is Bangalore
+2019-09-16 13:27:56 INFO  BookingDetails:87 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 13:28:15 INFO  BookingDetails:161 - user datails in roomNo.1 ram kumar
+2019-09-16 13:28:15 INFO  BookingDetails:162 - user datails in roomNo.2 ramesh krishna
+2019-09-16 13:29:00 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:29:00 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 13:29:00 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 13:29:00 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 13:29:00 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 13:29:00 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 13:29:01 INFO  BookingDetails:113 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 13:29:01 INFO  BookingDetails:122 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 14:12:59 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 14:13:12 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 14:13:12 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 14:13:40 INFO  BookingDetails:167 - user datails in roomNo.1 ram kumar
+2019-09-16 14:13:40 INFO  BookingDetails:168 - user datails in roomNo.2 ramesh krishna
+2019-09-16 14:13:59 INFO  BookingDetails:191 - Booking Details:
+2019-09-16 14:13:59 INFO  BookingDetails:192 - Hotel Name: The Golden Palms Hotel & Spa
+2019-09-16 14:13:59 INFO  BookingDetails:193 - Hotel Address: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123
+2019-09-16 14:13:59 INFO  BookingDetails:194 - no. of rooms: 2 no. of persons: 5
+2019-09-16 14:13:59 INFO  BookingDetails:44 - PASSED : actualHotelName is: The Golden Palms Hotel & Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 14:13:59 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: The Golden Palms Hotel &amp; Spa expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 14:13:59 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 58367 expectedHotelCost is 63365
+2019-09-16 14:13:59 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 58367 expectedHotelCost is 63365
+2019-09-16 14:13:59 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Golden Palms Avenue, Hobli, Tumkur Road, Bangalore, 562123 expectedHotelAddress is: Bangalore
+2019-09-16 14:13:59 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Bangalore, India expectedHotelAddress is: Bangalore
+2019-09-16 14:13:59 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-16 14:13:59 INFO  BookingDetails:86 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 14:13:59 INFO  BookingDetails:87 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 14:13:59 INFO  BookingDetails:99 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 14:13:59 INFO  BookingDetails:99 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 14:13:59 INFO  BookingDetails:110 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 14:13:59 INFO  BookingDetails:119 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 15:20:20 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:20:42 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 15:20:42 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 15:20:42 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:20:42 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:21:06 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:21:19 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:21:19 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:22:03 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:22:03 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:22:03 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:22:03 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 15:22:03 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 15:22:03 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:22:03 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:22:54 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:23:11 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:23:11 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:23:50 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:23:50 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:23:50 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:23:50 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 15:23:50 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 15:23:50 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:23:50 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:25:28 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:25:43 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:25:43 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:26:20 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:26:20 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:26:20 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:26:20 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 15:26:20 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 15:26:20 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:26:20 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:29:19 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:29:31 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:29:31 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:30:12 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:30:12 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:30:12 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:30:12 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 15:30:12 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 15:30:12 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:30:12 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:34:46 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:35:04 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:35:04 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:40:41 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:41:00 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:41:00 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:42:41 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:43:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 15:43:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 15:43:48 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:43:48 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:46:51 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:47:19 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:47:19 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:47:59 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is:  expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:47:59 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:47:59 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:47:59 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:47:59 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 15:49:01 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:49:20 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:49:20 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:51:56 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 15:52:19 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 15:52:19 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 15:53:02 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:53:02 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 15:53:02 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 15:53:02 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 15:53:02 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 15:53:02 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 15:53:02 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:02:35 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:02:51 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 16:02:51 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:03:33 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:03:33 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:03:33 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 16:03:33 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 16:03:33 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 16:03:33 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:03:33 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:08:16 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:08:32 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 16:08:32 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:09:10 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:09:10 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:09:10 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 16:09:10 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 16:09:10 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 16:09:10 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:09:10 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:10:00 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:10:14 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 16:10:14 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:10:55 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is:  expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:10:55 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:10:55 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 16:10:55 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 16:10:55 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 16:10:55 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:10:55 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:13:31 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:13:44 INFO  BookingDetails:88 - Hotel searched location is Bangalore
+2019-09-16 16:13:44 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:14:19 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is:  expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:14:19 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: The Golden Palms Hotel & Spa
+2019-09-16 16:14:19 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 3.5
+2019-09-16 16:14:19 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 3.5, 4.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 5, 4.5, 4, 4, 4, 3.5, 4, 4, 3.5]
+2019-09-16 16:14:19 INFO  BookingDetails:88 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-16 16:14:19 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:14:19 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:15:29 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:15:45 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:15:45 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:16:22 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is:  expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:16:22 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:16:22 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:16:22 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:16:22 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:16:22 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:16:22 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:25:13 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:25:35 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 16:25:35 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 16:25:35 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:25:35 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:26:05 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:26:21 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:26:21 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:26:54 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:26:54 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:26:55 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:26:55 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:26:55 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:26:55 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:26:55 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:27:47 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:28:08 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:28:08 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:28:42 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:28:42 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:28:42 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:28:42 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:28:42 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:28:42 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:28:42 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:29:31 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:29:52 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:29:52 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:30:40 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:30:40 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:30:40 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:30:40 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:30:40 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:30:40 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:30:40 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:31:38 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:32:00 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:32:00 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:32:42 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:32:42 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:32:42 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:32:42 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:32:42 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 16:32:42 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:32:42 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:34:18 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:34:45 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 16:34:45 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 16:34:45 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:34:45 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:35:10 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:35:29 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:35:29 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:36:18 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Radisson Blu Plaza Hotel Mysore
+2019-09-16 16:36:18 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Radisson Blu Plaza Hotel Mysore
+2019-09-16 16:36:18 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:36:18 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:36:18 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:50:13 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:50:25 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:50:25 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:51:14 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Radisson Blu Plaza Hotel Mysore
+2019-09-16 16:51:14 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Radisson Blu Plaza Hotel Mysore
+2019-09-16 16:51:14 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:51:14 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:51:14 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 16:55:00 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 16:55:15 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 16:55:15 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 16:56:01 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:56:01 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 16:56:01 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 16:56:01 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 16:56:01 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 16:56:01 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 16:56:01 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 17:01:26 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:01:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 17:01:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 17:01:48 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 17:01:48 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 17:02:12 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:02:27 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:02:27 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:03:14 INFO  BookingDetails:47 - FAILED Hotel name Not matched at Booking page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:03:14 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:03:14 INFO  BookingDetails:58 - Failed Hotel rating not matched actualHotelRating is: null expectedHotelRating is: 4.5
+2019-09-16 17:03:14 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:03:14 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:03:14 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 17:03:14 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 17:04:53 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:05:11 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:05:11 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:05:47 INFO  BookingDetails:208 - Booking Details:
+2019-09-16 17:05:47 INFO  BookingDetails:209 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:05:47 INFO  BookingDetails:210 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:05:47 INFO  BookingDetails:211 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:05:47 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:05:47 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:05:47 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:05:47 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:05:47 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:05:47 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:05:47 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:05:47 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:05:47 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:05:47 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:05:47 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:05:47 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:05:47 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:07:35 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:07:47 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:07:47 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:08:43 INFO  BookingDetails:205 - Booking Details:
+2019-09-16 17:08:43 INFO  BookingDetails:206 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:08:43 INFO  BookingDetails:207 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:08:43 INFO  BookingDetails:208 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:08:43 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:08:43 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:08:43 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:08:43 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:08:43 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:08:43 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:08:43 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:08:43 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:08:43 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:08:43 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:08:43 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:08:43 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:08:43 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:12:08 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:12:24 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:12:24 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:13:14 INFO  BookingDetails:203 - Booking Details:
+2019-09-16 17:13:14 INFO  BookingDetails:204 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:13:14 INFO  BookingDetails:205 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:13:14 INFO  BookingDetails:206 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:13:14 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:13:14 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:13:14 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:13:14 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:13:14 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:13:14 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:13:14 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:13:14 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:13:14 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:13:14 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:13:14 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:13:14 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:13:14 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:14:46 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:15:02 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:15:02 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:15:34 INFO  BookingDetails:203 - Booking Details:
+2019-09-16 17:15:34 INFO  BookingDetails:204 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:15:34 INFO  BookingDetails:205 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:15:34 INFO  BookingDetails:206 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:15:34 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:15:34 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:15:34 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:15:34 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:15:34 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:15:34 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:15:34 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:15:34 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:15:34 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:15:34 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:15:34 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:15:34 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:15:34 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:17:27 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:17:41 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:17:41 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:18:13 INFO  BookingDetails:203 - Booking Details:
+2019-09-16 17:18:13 INFO  BookingDetails:204 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:18:13 INFO  BookingDetails:205 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:18:13 INFO  BookingDetails:206 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:18:13 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:18:13 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:18:13 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:18:13 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:18:13 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:18:13 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:18:13 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:18:13 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:18:13 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:18:13 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:18:13 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:18:13 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:18:13 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:19:40 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:19:58 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:19:58 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:20:24 INFO  BookingDetails:179 - user datails in roomNo.1 ram kumar
+2019-09-16 17:20:24 INFO  BookingDetails:180 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:20:30 INFO  BookingDetails:203 - Booking Details:
+2019-09-16 17:20:30 INFO  BookingDetails:204 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:20:30 INFO  BookingDetails:205 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:20:30 INFO  BookingDetails:206 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:20:30 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:20:30 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:20:30 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:20:30 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:20:30 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:20:30 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:20:30 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:20:30 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:20:30 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 2.5]
+2019-09-16 17:20:30 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:20:30 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:20:30 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:20:30 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:21:40 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:21:54 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:21:54 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:22:22 INFO  BookingDetails:178 - user datails in roomNo.1 ram kumar
+2019-09-16 17:22:22 INFO  BookingDetails:179 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:22:30 INFO  BookingDetails:202 - Booking Details:
+2019-09-16 17:22:30 INFO  BookingDetails:203 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:22:30 INFO  BookingDetails:204 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:22:30 INFO  BookingDetails:205 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:22:30 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:22:30 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:22:30 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:22:30 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:22:30 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:22:30 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:22:30 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:22:30 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:22:30 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:22:30 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:22:30 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:22:30 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:22:30 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:24:07 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:24:24 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:24:24 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:24:53 INFO  BookingDetails:178 - user datails in roomNo.1 ram kumar
+2019-09-16 17:24:53 INFO  BookingDetails:179 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:24:58 INFO  BookingDetails:202 - Booking Details:
+2019-09-16 17:24:58 INFO  BookingDetails:203 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:24:58 INFO  BookingDetails:204 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:24:58 INFO  BookingDetails:205 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:24:58 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:24:58 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:24:58 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:24:58 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:24:58 INFO  BookingDetails:74 - Failed Not correct loaction actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Bangalore
+2019-09-16 17:24:58 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:24:58 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:24:58 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:24:58 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:24:58 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:24:58 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:24:58 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:24:58 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:29:10 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:29:38 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 17:29:38 INFO  BookingDetails:44 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-16 17:29:38 INFO  BookingDetails:118 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-16 17:29:38 INFO  BookingDetails:129 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-16 17:30:16 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:30:33 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:30:33 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:31:01 INFO  BookingDetails:178 - user datails in roomNo.1 ram kumar
+2019-09-16 17:31:01 INFO  BookingDetails:179 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:31:17 INFO  BookingDetails:202 - Booking Details:
+2019-09-16 17:31:17 INFO  BookingDetails:203 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:31:17 INFO  BookingDetails:204 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:31:17 INFO  BookingDetails:205 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:31:17 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:31:17 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:31:17 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:31:17 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:31:17 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-16 17:31:17 INFO  BookingDetails:74 - Failed Location not matched actualHotelAddress is: Mysore, India expectedHotelAddress is: Bangalore
+2019-09-16 17:31:17 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:31:17 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:31:17 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:31:17 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:31:17 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:31:17 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:31:17 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:32:56 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:33:13 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:33:13 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:33:41 INFO  BookingDetails:178 - user datails in roomNo.1 ram kumar
+2019-09-16 17:33:41 INFO  BookingDetails:179 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:33:48 INFO  BookingDetails:202 - Booking Details:
+2019-09-16 17:33:48 INFO  BookingDetails:203 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:33:48 INFO  BookingDetails:204 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:33:48 INFO  BookingDetails:205 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:33:48 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:33:48 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:33:48 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:33:48 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:33:48 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-16 17:33:48 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-16 17:33:48 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:33:48 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:33:48 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:33:48 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:33:48 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:33:48 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:33:48 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-16 17:45:26 INFO  BookingDetails:70 - https://www.yatra.com/ website opened
+2019-09-16 17:45:43 INFO  BookingDetails:88 - Hotel searched location is Mysore
+2019-09-16 17:45:43 INFO  BookingDetails:89 - check in date 27/10/2019 check out date29/10/2019
+2019-09-16 17:46:10 INFO  BookingDetails:33 - user datails in roomNo.1 ram kumar
+2019-09-16 17:46:10 INFO  BookingDetails:34 - user datails in roomNo.2 ramesh krishna
+2019-09-16 17:46:18 INFO  BookingDetails:28 - Booking Details:
+2019-09-16 17:46:18 INFO  BookingDetails:29 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:46:18 INFO  BookingDetails:30 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-16 17:46:18 INFO  BookingDetails:31 - no. of rooms: 2 no. of persons: 5
+2019-09-16 17:46:18 INFO  BookingDetails:44 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:46:18 INFO  BookingDetails:47 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-16 17:46:18 INFO  BookingDetails:31 - FAILED Cost is Not matched at payment actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:46:18 INFO  BookingDetails:31 - FAILED cost is Not matched at UPI actualHotelCost is 21201 expectedHotelCost is 21200
+2019-09-16 17:46:18 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-16 17:46:18 INFO  BookingDetails:71 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-16 17:46:18 INFO  BookingDetails:55 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-16 17:46:18 INFO  BookingDetails:87 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 3.5, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:46:18 INFO  BookingDetails:88 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-16 17:46:18 INFO  BookingDetails:102 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-16 17:46:18 INFO  BookingDetails:102 - PASSED:  actualDate is: 29October  expectedDate is: 29October
+2019-09-16 17:46:18 INFO  BookingDetails:115 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-16 17:46:18 INFO  BookingDetails:126 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5

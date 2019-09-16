@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Test2(failed)">
     <parameter name="selecteddriver" value="chrome"/>
     <classes>
-      <class name="com.yatra.testscript.ValidateSorting">
+      <class name="com.yatra.testscript.ValidateUserDetails">
         <methods>
-          <include name="validateCost"/>
+          <include name="userInformation"/>
           <include name="setBrowser"/>
-          <include name="validatePlace"/>
         </methods>
-      </class> <!-- com.yatra.testscript.ValidateSorting -->
+      </class> <!-- com.yatra.testscript.ValidateUserDetails -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

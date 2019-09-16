@@ -1,7 +1,9 @@
 package com.yatra.base;
 
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,7 +27,6 @@ public class BaseClass {
 	@BeforeTest
 	public void setBrowser(String selecteddriver) throws IOException {
 		
-		
 		switch (selecteddriver) {
 		
 		case "chrome":
@@ -33,16 +34,12 @@ public class BaseClass {
 			optionschrome.addArguments("--disable-notifications");
 			System.setProperty("webdriver.chrome.driver", "./libs/chromedriver.exe");
 			 driver = new ChromeDriver(optionschrome);
-			//System.setProperty("webdriver.chrome.driver", "./libs/chromedriver.exe");
-			//driver = new ChromeDriver();
 			break;
 			
 		case "firefox":
-			FirefoxOptions optionsfirefox=new FirefoxOptions();
-			optionsfirefox.addArguments("--disable-notifications");
 			System.setProperty("webdriver.gecko.driver", "./libs/geckodriver.exe");
-			driver = new ChromeDriver(optionsfirefox);
-			//driver = new FirefoxDriver();
+			
+			driver = new FirefoxDriver();
 			break;
 			
 		case "ie":

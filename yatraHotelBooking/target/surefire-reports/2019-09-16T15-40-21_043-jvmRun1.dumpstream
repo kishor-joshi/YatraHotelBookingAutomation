@@ -1,0 +1,234 @@
+# Created at 2019-09-16T15:56:51.927
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2019-09-16T15:57:05.666
+Unexpected IOException: 8,1,com.yatra.testscript.ValidateUserDetails,selectRooms(com.yatra.testscript.ValidateUserDetails),null,Cannot locate an element using xpath=(//span[@class='fl mr10 fs-18 fm-lb green ng-binding'])[1]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-002'\002C ip: '55.55.52.108'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: RemoteWebDriver,null,Cannot locate an element using xpath=(//span[@class='fl mr10 fs-18 fm-lb green ng-binding'])[1]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-002'\002C ip: '55.55.52.108'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: RemoteWebDriver,ValidateUserDetails>RoomBooking.selectRooms:9 \00BB NoSuchElement Cannot locate an...,org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using xpath=(//span[@class='fl mr10 fs-18 fm-lb green ng-binding'])[1]\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '4.0.0-alpha-2'\002C revision: 'f148142cf8'\002C time: '2019-07-01T20:55:26'\000ASystem info: host: 'ATMECSINLT-002'\002C ip: '55.55.52.108'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: driver.version: RemoteWebDriver\000A
+
+
+# Created at 2019-09-16T15:57:05.681
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,userInformation(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: [
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 1
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 5
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 8
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 2
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 9
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 2
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 7
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: .
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 6
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 9
+
+# Created at 2019-09-16T15:57:07.713
+Unexpected IOException with stream: 7
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: ]
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: [
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: W
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: A
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: R
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: N
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: I
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: N
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: G
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: ]
+
+# Created at 2019-09-16T15:57:07.728
+Unexpected IOException with stream: :
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: T
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: i
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: m
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: e
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: d
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: o
+
+# Created at 2019-09-16T15:57:07.744
+Unexpected IOException with stream: u
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: t
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: c
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: o
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: n
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: n
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: e
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: c
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: t
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: i
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: n
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream: g
+
+# Created at 2019-09-16T15:57:07.759
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: t
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: o
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: C
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: h
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: r
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: o
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: m
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: e
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: ,
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream:  
+
+# Created at 2019-09-16T15:57:07.775
+Unexpected IOException with stream: r
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: e
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: t
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: r
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: y
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: i
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: n
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: g
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: .
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: .
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: .
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: 
+
+# Created at 2019-09-16T15:57:07.791
+Unexpected IOException with stream: 
+
+

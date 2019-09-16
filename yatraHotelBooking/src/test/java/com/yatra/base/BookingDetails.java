@@ -5,10 +5,9 @@ import java.io.FileInputStream;
 
 
 
+
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -16,18 +15,20 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 
 import com.yatra.helper.ExcelReader;
 import com.yatra.helper.HelperClass;
 import com.yatra.base.BaseClass;
 import com.yatra.utility.Validation;
-
+/**
+ * 
+ * @author kishor.joshi
+ *
+ */
 public class BookingDetails extends BaseClass {
 	static HelperClass help=new HelperClass();
 	static Properties  prop = new Properties();
@@ -45,12 +46,15 @@ public class BookingDetails extends BaseClass {
 	static String acutalHotelCostAtPayment;
 	static String acutalHotelCostAtUPI;
 	static String place;
+	static String actualcheckIn;
+	static String actualcheckout;
 	ArrayList<String> ratingList,sortedList;
 	static String getData[][];
 	Logger log=Logger.getLogger(BookingDetails.class);
 	public Validation validate=new Validation();	
 	
 	/**
+	 * this method is hotel booking home page.
 	 * 
 	 * @param driver
 	 * @throws IOException
@@ -87,14 +91,20 @@ public class BookingDetails extends BaseClass {
 	 
 	}
 	/**
+	 * this method clicks on hotel rating.stores rating of all the hotels
 	 * 
 	 * @param driver
 	 * @throws InterruptedException
 	 */
 	public void HotelRating(WebDriver driver) throws InterruptedException {
 		
-		WebDriverWait wait = new WebDriverWait(driver, 20);
-	  //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.getProperty("clickonimage")))).click();
+		WebDriverWait wait = new WebDriverWait(driver, 4);
+		try {
+	    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.getProperty("clickonimage")))).click();
+		}
+		catch(Exception e) {
+			System.out.println("no popup");
+		}
 	    driver.findElement(By.xpath(prop.getProperty("filterbystarrating"))).click();
 		   Thread.sleep(3000);
 		  ratingList=help.hotelRatingCollection(driver, prop.getProperty("xpathOfRatings"));
@@ -107,12 +117,14 @@ public class BookingDetails extends BaseClass {
 	 */
 	public void selectHotel(WebDriver driver) {
 		
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		
 		expectedHotelName=help.getTextValue(driver, prop.getProperty("hotelnamepage2"));
 	    expectedHotelRating=help.getAtributeValue(driver, prop.getProperty("expectedHotelRating"));
+	    WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(prop.getProperty("selecthotel2")))).click();
 	}
 	/**
+	 * switch to selected hotel tab.
 	 * 
 	 */
 	public void switchToNextTab(WebDriver driver) {
@@ -125,57 +137,25 @@ public class BookingDetails extends BaseClass {
 	/**
 	 * 
 	 * @param driver
+	 * @throws InterruptedException 
 	 */
 	
-	public void selectAndBookRoom(WebDriver driver) {
-		actualHotelRating=help.getAtributeValue(driver,prop.getProperty("actualHotelRating") );
+	public void selectAndBookRoom(WebDriver driver)  {
+		try {
+			Thread.sleep(4000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		System.out.println("before");
+		actualHotelRating=help.getAtributeValue(driver,prop.getProperty("actualHotelRating3"));
 		actualHotelNameAtBookingPage=help.getTextValue(driver, prop.getProperty("hotelnamepage3"));
 		actualHotelAddressAtBookingPage=help.getTextValue(driver, prop.getProperty("hoteladdresspage3"));
 		driver.findElement(By.xpath(prop.getProperty("booknowroom3"))).click();
 	}
 	
-	/**
-	 * 
-	 * @param driver
-	 */
-	public void userDetails(WebDriver driver) {
-		expectedHotelCost=help.getTextValue(driver, prop.getProperty("youpay4"));
-		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
-		driver.findElement(By.xpath(prop.getProperty("email"))).sendKeys(getData[1][3]);
-		
-		String phoneNo=getData[1][4].replace("E9", "").replace(".", "");
-		driver.findElement(By.xpath(prop.getProperty("phonenumber"))).sendKeys(phoneNo);
-		
-		Select select=new Select(driver.findElement(By.xpath(prop.getProperty("selectfirst4"))));
-		select.selectByVisibleText("Mr.");
-		driver.findElement(By.xpath(prop.getProperty("firstname1"))).sendKeys(getData[1][5]);
-		driver.findElement(By.xpath(prop.getProperty("lastname1"))).sendKeys(getData[1][6]);
-		 select=new Select(driver.findElement(By.xpath(prop.getProperty("selectsecond4"))));
-		select.selectByVisibleText("Mr.");
-		driver.findElement(By.xpath(prop.getProperty("firstname2"))).sendKeys(getData[1][7]);
-		driver.findElement(By.xpath(prop.getProperty("lastname2"))).sendKeys(getData[1][8]);
-		driver.findElement(By.xpath(prop.getProperty("continuebutton4"))).click();
-		driver.findElement(By.xpath(prop.getProperty("continuebutton4"))).click();
-		log.info("user datails in roomNo.1 "+getData[1][5]+" "+getData[1][6]);
-		log.info("user datails in roomNo.2 "+getData[1][7]+" "+getData[1][8]);
-		
-	}
-	/**
-	 * 
-	 * @param driver
-	 */
-	public void paymentPageDetails(WebDriver driver) {
 	
-	acutalHotelNameAtPayment=help.getAtributeValue(driver, prop.getProperty("hotelnameatpayment5"));
-	acutalHotelAddressAtPayment=help.getAtributeValue(driver, prop.getProperty("hotelplacepayment5"));
-	acutalHotelRoomsAtPayment=help.getAtributeValue(driver, prop.getProperty("numberofroompayment5"));
-	acutalNumberOfPersonAtPayment=help.getAtributeValue(driver, prop.getProperty("numberofadultspayment5"));
-	acutalHotelCostAtPayment=help.getAtributeValue(driver, prop.getProperty("totalamountrightside5"));
-	acutalHotelCostAtUPI=help.getAtributeValue(driver, prop.getProperty("totalamountinupi5"));
-	log.info("Booking Details:");
-	log.info("Hotel Name: "+actualHotelNameAtBookingPage);
-	log.info("Hotel Address: "+actualHotelAddressAtBookingPage);
-	log.info("no. of rooms: "+acutalHotelRoomsAtPayment+" no. of persons: " +acutalNumberOfPersonAtPayment);
-	}
+	
 	
 }

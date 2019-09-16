@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
 import org.testng.Assert;
 
 import com.yatra.base.BookingDetails;
+import com.yatra.helper.HelperClass;
 
 public class Validation {
 	Logger log=Logger.getLogger(BookingDetails.class);
@@ -74,6 +75,7 @@ public class Validation {
 		}
 		
 	}
+	
 	public void validateRating(ArrayList<String> actualratingList,ArrayList<String> sortedList,String message) {
 		Collections.sort(sortedList, Collections.reverseOrder());
 		try {
@@ -89,6 +91,43 @@ public class Validation {
 	}
 	
 	
+public void validateDate(String actualDate,String expectedDate,String message) {
+	expectedDate=HelperClass.converttoMonth(expectedDate);
+	boolean ischeckinsame=false;
+	if(actualDate.equals(expectedDate))
+		System.out.println(actualDate+expectedDate);
+		ischeckinsame=true;
+	try {
+		Assert.assertTrue(ischeckinsame,message);
+		log.info("PASSED: "+" actualDate is: "+actualDate+" expectedDate is: "+ expectedDate);
+		
+	} catch(AssertionError assertionError) {
+		log.info("Failed "+message+" actualDate is: "+actualDate+" expectedDate is: "+ expectedDate);
+	}
+		
 	
+	}
+
+
+public void validateRooms(String actualRooms,String expectedRooms,String message) {
+	try {
+		Assert.assertEquals(actualRooms, expectedRooms,message);
+		log.info("PASSED: "+" actualRooms is: "+actualRooms+" expectedRooms is: "+ expectedRooms);
+		
+	} catch(AssertionError assertionError) {
+		log.info("Failed "+message+" actualRooms is: "+actualRooms+" expectedRooms is: "+ expectedRooms);
+	}
+}
+
+
+public void validateTotalMembers(String actualTotalMembers,String expectedTotalMembers,String message) {
+	try {
+		Assert.assertEquals(actualTotalMembers, expectedTotalMembers,message);
+		log.info("PASSED: "+" actualTotalMembers is: "+actualTotalMembers+" expectedTotalMembers is: "+ expectedTotalMembers);
+		
+	} catch(AssertionError assertionError) {
+		log.info("Failed "+message+" actualTotalMembers is: "+actualTotalMembers+" expectedTotalMembers is: "+ expectedTotalMembers);
+	}
+}
 
 }

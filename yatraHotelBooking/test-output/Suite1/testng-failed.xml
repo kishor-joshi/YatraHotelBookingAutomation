@@ -4,24 +4,12 @@
   <test thread-count="5" name="Test2(failed)">
     <parameter name="selecteddriver" value="chrome"/>
     <classes>
-      <class name="com.yatra.base.ValidationScript">
+      <class name="com.yatra.testscript.ValidateUserDetails">
         <methods>
-          <include name="userDetails"/>
-          <include name="validateHotelRating"/>
-          <include name="validateSelectedHotelRating"/>
-          <include name="validateHotelCostAtPayment"/>
-          <include name="selectHotel"/>
-          <include name="validateLocationAtPaymentPage"/>
-          <include name="switchToNextTab"/>
-          <include name="validateLocationAtBookingPage"/>
-          <include name="HotelRating"/>
-          <include name="paymentPage"/>
-          <include name="HomePagebookingDetails"/>
-          <include name="validateHotelCostAtUPI"/>
-          <include name="selectAndBookRoom"/>
+          <include name="userInformation"/>
           <include name="setBrowser"/>
         </methods>
-      </class> <!-- com.yatra.base.ValidationScript -->
+      </class> <!-- com.yatra.testscript.ValidateUserDetails -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
