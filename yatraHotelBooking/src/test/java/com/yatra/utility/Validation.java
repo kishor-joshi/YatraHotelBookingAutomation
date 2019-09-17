@@ -11,13 +11,7 @@ import com.yatra.helper.HelperClass;
 
 public class Validation {
 	Logger log=Logger.getLogger(BookingDetails.class);
-	public void validateData(boolean isTrue, String message) {
-		try {
-			Assert.assertTrue(isTrue, message);
-			
-		} catch(AssertionError assertionError) {
-		}		
-	}
+	
 	
 	
 	public void validateCost(String actual,String expected,String message) {

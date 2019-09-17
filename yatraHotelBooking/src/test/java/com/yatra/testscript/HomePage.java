@@ -15,7 +15,7 @@ public class HomePage extends BaseClass{
  ValidationScript validate=new ValidationScript();
  
  /**
-  * this method gives Hotel Booking 
+  * this method gives Hotel Booking information
   * @throws IOException
   * @throws InterruptedException
   */

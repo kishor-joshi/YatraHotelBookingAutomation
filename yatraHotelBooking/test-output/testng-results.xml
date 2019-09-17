@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="64905" started-at="2019-09-16T17:19:25 IST" finished-at="2019-09-16T17:20:30 IST">
+  <suite name="Suite1" duration-ms="69711" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:41:13 IST">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="64905" started-at="2019-09-16T17:19:25 IST" finished-at="2019-09-16T17:20:30 IST">
+    <test name="Test2" duration-ms="69711" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:41:13 IST">
       <class name="com.yatra.testscript.ValidateUserDetails">
-        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="setBrowser" is-config="true" duration-ms="6907" started-at="2019-09-16T17:19:25 IST" finished-at="2019-09-16T17:19:32 IST">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="setBrowser" is-config="true" duration-ms="7770" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:40:11 IST">
           <params>
             <param index="0">
               <value>
@@ -18,71 +18,67 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="bookingInforamtion()[pri:1, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="bookingInforamtion" duration-ms="25987" started-at="2019-09-16T17:19:32 IST" finished-at="2019-09-16T17:19:58 IST">
+        <test-method status="PASS" signature="bookingInforamtion()[pri:1, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="bookingInforamtion" duration-ms="24019" started-at="2019-09-17T14:40:11 IST" finished-at="2019-09-17T14:40:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingInforamtion -->
-        <test-method status="PASS" signature="sortedByRating()[pri:2, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="sortedByRating" duration-ms="12404" started-at="2019-09-16T17:19:58 IST" finished-at="2019-09-16T17:20:10 IST">
+        <test-method status="PASS" signature="sortedByRating()[pri:2, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="sortedByRating" duration-ms="14895" started-at="2019-09-17T14:40:35 IST" finished-at="2019-09-17T14:40:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortedByRating -->
-        <test-method status="PASS" signature="hotelSelection()[pri:3, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="hotelSelection" duration-ms="1117" started-at="2019-09-16T17:20:10 IST" finished-at="2019-09-16T17:20:11 IST">
+        <test-method status="PASS" signature="hotelSelection()[pri:3, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="hotelSelection" duration-ms="1421" started-at="2019-09-17T14:40:50 IST" finished-at="2019-09-17T14:40:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelSelection -->
-        <test-method status="PASS" signature="switchToHotelTab()[pri:4, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="switchToHotelTab" duration-ms="49" started-at="2019-09-16T17:20:11 IST" finished-at="2019-09-16T17:20:11 IST">
+        <test-method status="PASS" signature="switchToHotelTab()[pri:4, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="switchToHotelTab" duration-ms="101" started-at="2019-09-17T14:40:51 IST" finished-at="2019-09-17T14:40:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToHotelTab -->
-        <test-method status="PASS" signature="selectRooms()[pri:5, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="selectRooms" duration-ms="9437" started-at="2019-09-16T17:20:11 IST" finished-at="2019-09-16T17:20:21 IST">
+        <test-method status="PASS" signature="selectRooms()[pri:5, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="selectRooms" duration-ms="11287" started-at="2019-09-17T14:40:51 IST" finished-at="2019-09-17T14:41:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRooms -->
-        <test-method status="PASS" signature="userInformation()[pri:6, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="userInformation" duration-ms="3142" started-at="2019-09-16T17:20:21 IST" finished-at="2019-09-16T17:20:24 IST">
+        <test-method status="PASS" signature="userInformation()[pri:6, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="userInformation" duration-ms="3593" started-at="2019-09-17T14:41:03 IST" finished-at="2019-09-17T14:41:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userInformation -->
-        <test-method status="PASS" signature="paymentPageInformation()[pri:7, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="paymentPageInformation" duration-ms="5729" started-at="2019-09-16T17:20:24 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="paymentPageInformation()[pri:7, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="paymentPageInformation" duration-ms="6477" started-at="2019-09-17T14:41:06 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentPageInformation -->
-        <test-method status="PASS" signature="validateName()[pri:8, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateName" duration-ms="13" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateName()[pri:8, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateName" duration-ms="8" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateName -->
-        <test-method status="PASS" signature="validatePlace()[pri:10, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validatePlace" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePlace -->
-        <test-method status="PASS" signature="validateCost()[pri:9, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateCost" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateCost()[pri:9, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateCost" duration-ms="8" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCost -->
-        <test-method status="PASS" signature="validateRating()[pri:11, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateRating" duration-ms="16" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validatePlace()[pri:10, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validatePlace" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlace -->
+        <test-method status="PASS" signature="validateRating()[pri:11, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateRating" duration-ms="4" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateRating -->
-        <test-method status="PASS" signature="validateSortByRatings()[pri:12, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateSortByRatings" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateSortByRatings()[pri:12, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateSortByRatings" duration-ms="3" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortByRatings -->
-        <test-method status="PASS" signature="validateCheckIn()[pri:13, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateCheckIn" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateCheckIn()[pri:13, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateCheckIn" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckIn -->
-        <test-method status="PASS" signature="validateTotalRooms()[pri:14, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateTotalRooms" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateTotalRooms()[pri:14, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateTotalRooms" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTotalRooms -->
-        <test-method status="PASS" signature="validateTotalMembers()[pri:15, instance:com.yatra.testscript.ValidateUserDetails@42d8062c]" name="validateTotalMembers" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
+        <test-method status="PASS" signature="validateTotalMembers()[pri:15, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateTotalMembers" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTotalMembers -->
       </class> <!-- com.yatra.testscript.ValidateUserDetails -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite1 -->
-  <suite name="Test-class Suite" duration-ms="0" started-at="2019-09-16T17:20:30 IST" finished-at="2019-09-16T17:20:30 IST">
-    <groups>
-    </groups>
-  </suite> <!-- Test-class Suite -->
 </testng-results>
