@@ -1520,3 +1520,754 @@
 2019-09-17 14:41:13 INFO  BookingDetails:96 - PASSED:  actualDate is: 30October  expectedDate is: 30October
 2019-09-17 14:41:13 INFO  BookingDetails:109 - PASSED:  actualRooms is: 2 expectedRooms is: 2
 2019-09-17 14:41:13 INFO  BookingDetails:120 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 11:10:32 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 11:10:46 INFO  BookingDetails:82 - Hotel searched location is Mysore
+2019-09-18 11:10:46 INFO  BookingDetails:83 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 11:11:16 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 11:11:16 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 11:11:23 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 11:11:23 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:11:23 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 11:11:23 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 11:11:23 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:11:23 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:11:23 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:11:23 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:11:23 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 11:11:23 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 11:11:23 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 11:11:23 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:11:23 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:11:23 INFO  BookingDetails:96 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 11:11:23 INFO  BookingDetails:96 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 11:11:23 INFO  BookingDetails:109 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 11:11:23 INFO  BookingDetails:120 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 11:15:33 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 11:15:46 INFO  BookingDetails:38 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-18 11:15:46 INFO  BookingDetails:38 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-18 11:15:46 INFO  BookingDetails:112 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-18 11:15:46 INFO  BookingDetails:123 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-18 11:42:21 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 11:42:34 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 11:42:34 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 11:43:02 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 11:43:02 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 11:43:08 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 11:43:08 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:43:08 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 11:43:08 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 11:43:08 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:43:08 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:43:08 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:43:08 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:43:08 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 11:43:08 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 11:43:08 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 11:43:08 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:43:08 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:43:08 INFO  BookingDetails:96 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 11:43:08 INFO  BookingDetails:96 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 11:43:08 INFO  BookingDetails:109 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 11:43:08 INFO  BookingDetails:120 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 11:44:45 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 11:45:02 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 11:45:02 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 11:45:28 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 11:45:28 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 11:45:34 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 11:45:34 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:45:34 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 11:45:34 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 11:45:34 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:45:34 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:45:34 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:45:34 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:45:34 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 11:45:34 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 11:45:34 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 11:45:34 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:45:34 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:45:34 INFO  BookingDetails:96 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 11:45:34 INFO  BookingDetails:96 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 11:45:34 INFO  BookingDetails:109 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 11:45:34 INFO  BookingDetails:120 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 11:45:34 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 11:45:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 11:45:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 11:45:34 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 11:45:34 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 11:45:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 11:45:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 11:45:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 11:45:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 11:45:35 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 11:49:49 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 11:50:05 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 11:50:05 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 11:50:31 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 11:50:31 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 11:50:37 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 11:50:37 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:50:37 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 11:50:37 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 11:50:37 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:50:37 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 11:50:37 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:50:37 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 11:50:37 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 11:50:37 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 11:50:37 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 11:50:37 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:50:37 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 11:50:37 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 11:50:37 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 11:50:37 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 11:50:37 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 11:50:37 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 11:50:38 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 11:50:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 11:50:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 11:50:38 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 11:50:38 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 12:11:08 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:11:24 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:11:24 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:11:52 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:11:52 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:11:57 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:11:57 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:11:57 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:11:57 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:11:57 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:11:57 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:11:57 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:11:57 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:11:57 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:11:57 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:11:57 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:11:57 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:11:57 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:11:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 12:11:58 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 12:11:58 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 12:11:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 12:11:58 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 12:14:26 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:14:38 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:14:38 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:15:05 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:15:05 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:15:10 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:15:10 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:15:10 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:15:10 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:15:10 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:15:10 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:15:10 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:15:10 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:15:10 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:15:10 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:15:10 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:15:10 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:15:10 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:15:10 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 12:15:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 12:15:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 12:15:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 12:15:10 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 12:15:11 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2019-09-18 12:15:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2019-09-18 12:15:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2019-09-18 12:15:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2019-09-18 12:15:11 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/kishor.joshi/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2019-09-18 12:19:56 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:20:13 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:20:13 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:20:40 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:20:40 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:20:47 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:20:47 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:20:47 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:20:47 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:20:47 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:20:47 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:20:47 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:20:47 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:20:47 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:20:47 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:20:47 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:20:47 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:20:47 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:31:12 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:31:28 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:31:28 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:31:56 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:31:56 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:32:03 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:32:03 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:32:03 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:32:03 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:32:03 INFO  BookingDetails:57 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:32:03 INFO  BookingDetails:60 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:32:03 INFO  BookingDetails:34 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:32:03 INFO  BookingDetails:34 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:32:03 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:32:03 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:32:03 INFO  BookingDetails:75 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:32:03 INFO  BookingDetails:121 - FAILED: FAILED: Sorted by star Rating not met/n actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5] expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5] actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:32:03 INFO  BookingDetails:122 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:34:55 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:35:08 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:35:08 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:36:14 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:36:31 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:36:31 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:36:59 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:36:59 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:37:06 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:37:06 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:37:06 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:37:06 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:37:06 INFO  BookingDetails:57 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:37:06 INFO  BookingDetails:60 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:37:06 INFO  BookingDetails:34 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:37:06 INFO  BookingDetails:34 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+2019-09-18 12:37:06 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:37:06 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:37:06 INFO  BookingDetails:75 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:37:06 INFO  BookingDetails:120 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:37:06 INFO  BookingDetails:121 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:46:59 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 12:47:12 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 12:47:12 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 12:47:39 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 12:47:39 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 12:47:48 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 12:47:48 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:47:48 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 12:47:48 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 12:47:48 INFO  BookingDetails:57 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:47:48 INFO  BookingDetails:60 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 12:47:48 INFO  BookingDetails:34 - FAILED Cost is Not matched at payment actualHotelCost is 31801 expectedHotelCost is 30800
+2019-09-18 12:47:48 INFO  BookingDetails:34 - FAILED cost is Not matched at UPI actualHotelCost is 31801 expectedHotelCost is 30800
+2019-09-18 12:47:48 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 12:47:48 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 12:47:48 INFO  BookingDetails:75 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 12:47:48 INFO  BookingDetails:120 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:47:48 INFO  BookingDetails:121 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 12:47:48 INFO  BookingDetails:139 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 12:47:48 INFO  BookingDetails:139 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 12:47:48 INFO  BookingDetails:158 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 12:47:48 INFO  BookingDetails:174 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 13:12:04 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 13:12:20 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 13:12:20 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 13:14:14 INFO  BookingDetails:58 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:14:14 INFO  BookingDetails:61 - FAILED Hotel name not matched at payment page actualHotelName is: null expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:14:14 INFO  BookingDetails:99 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 13:14:14 INFO  BookingDetails:76 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 13:14:14 INFO  BookingDetails:121 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:14:14 INFO  BookingDetails:122 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:14:14 INFO  BookingDetails:162 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-18 13:14:14 INFO  BookingDetails:178 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-18 13:14:40 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 13:15:00 INFO  BookingDetails:58 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-18 13:15:00 INFO  BookingDetails:58 - PASSED : actualHotelName is: null expectedHotelName is: null
+2019-09-18 13:15:00 INFO  BookingDetails:162 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-18 13:15:00 INFO  BookingDetails:178 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-18 13:15:16 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 13:15:28 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 13:15:28 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 13:15:55 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 13:15:55 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 13:16:00 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 13:16:00 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:16:00 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 13:16:00 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 13:16:00 INFO  BookingDetails:58 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:16:00 INFO  BookingDetails:61 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:16:00 INFO  BookingDetails:99 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 13:16:00 INFO  BookingDetails:99 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 13:16:00 INFO  BookingDetails:76 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 13:16:00 INFO  BookingDetails:121 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:16:00 INFO  BookingDetails:122 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:16:00 INFO  BookingDetails:140 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 13:16:00 INFO  BookingDetails:140 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 13:16:00 INFO  BookingDetails:159 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 13:16:00 INFO  BookingDetails:175 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 13:27:41 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 13:27:54 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 13:27:54 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 13:28:20 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 13:28:20 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 13:28:25 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 13:28:25 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:28:25 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 13:28:25 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 13:28:25 INFO  BookingDetails:66 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 13:28:25 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 13:28:25 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 13:28:25 INFO  BookingDetails:84 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 13:28:25 INFO  BookingDetails:129 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:28:25 INFO  BookingDetails:130 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 13:28:25 INFO  BookingDetails:148 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 13:28:25 INFO  BookingDetails:148 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 13:28:25 INFO  BookingDetails:167 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 13:28:25 INFO  BookingDetails:183 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:22:39 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:22:59 INFO  BookingDetails:170 - Failed rooms are not matched actualRooms is: null expectedRooms is: 2
+2019-09-18 14:22:59 INFO  BookingDetails:186 - Failed total members numbers are not matched actualTotalMembers is: null expectedTotalMembers is: 5
+2019-09-18 14:23:20 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:23:41 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 14:23:41 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:24:14 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:24:14 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:24:21 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:24:21 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:24:21 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 14:24:21 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:24:21 INFO  BookingDetails:66 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:24:21 INFO  BookingDetails:69 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:24:21 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 14:24:21 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 14:24:21 INFO  BookingDetails:84 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:24:21 INFO  BookingDetails:129 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:24:21 INFO  BookingDetails:130 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:24:21 INFO  BookingDetails:148 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:24:21 INFO  BookingDetails:148 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:24:21 INFO  BookingDetails:167 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:24:21 INFO  BookingDetails:183 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:26:25 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:26:44 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 14:26:44 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:27:17 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:27:18 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:27:24 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:27:24 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:27:24 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 14:27:24 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:27:24 INFO  BookingDetails:66 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:27:24 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 14:27:24 INFO  BookingDetails:107 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 14:27:24 INFO  BookingDetails:84 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:27:24 INFO  BookingDetails:129 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:27:24 INFO  BookingDetails:130 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:27:24 INFO  BookingDetails:148 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:27:24 INFO  BookingDetails:148 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:27:24 INFO  BookingDetails:167 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:27:24 INFO  BookingDetails:183 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:32:33 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:32:52 INFO  BookingDetails:83 - Hotel searched location is Mysore
+2019-09-18 14:32:52 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:33:26 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:33:26 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:33:34 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:33:34 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:33:34 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+2019-09-18 14:33:34 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:33:34 INFO  BookingDetails:67 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:33:34 INFO  BookingDetails:67 - PASSED : actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+2019-09-18 14:33:34 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+2019-09-18 14:33:34 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+2019-09-18 14:33:34 INFO  BookingDetails:85 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:33:34 INFO  BookingDetails:130 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:33:34 INFO  BookingDetails:131 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:33:34 INFO  BookingDetails:149 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:33:34 INFO  BookingDetails:149 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:33:34 INFO  BookingDetails:168 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:33:34 INFO  BookingDetails:184 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:36:10 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:36:24 INFO  BookingDetails:83 - Hotel searched location is Hyderabad
+2019-09-18 14:36:24 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:37:00 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:37:00 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:37:07 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:37:07 INFO  BookingDetails:38 - Hotel Name: Hotel One Place
+2019-09-18 14:37:07 INFO  BookingDetails:39 - Hotel Address: # 2-22-292/7/2, Behind KPHB Bus Stop, Main RD, Kukatpally, Hyderabad, 500072
+2019-09-18 14:37:07 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:37:08 INFO  BookingDetails:67 - PASSED : actualHotelName is: Hotel One Place expectedHotelName is: Hotel One Place
+2019-09-18 14:37:08 INFO  BookingDetails:67 - PASSED : actualHotelName is: Hotel One Place expectedHotelName is: Hotel One Place
+2019-09-18 14:37:08 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: # 2-22-292/7/2, Behind KPHB Bus Stop, Main RD, Kukatpally, Hyderabad, 500072 expectedHotelAddress is: Hyderabad
+2019-09-18 14:37:08 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: Hyderabad, India expectedHotelAddress is: Hyderabad
+2019-09-18 14:37:08 INFO  BookingDetails:85 - PASSED:  actualHotelRating is: 3.5 expectedHotelRating is: 3.5
+2019-09-18 14:37:08 INFO  BookingDetails:149 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:37:08 INFO  BookingDetails:149 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:37:08 INFO  BookingDetails:168 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:37:08 INFO  BookingDetails:184 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:40:49 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:41:06 INFO  BookingDetails:83 - Hotel searched location is Hyderabad
+2019-09-18 14:41:06 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:41:32 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:41:32 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:41:39 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:41:39 INFO  BookingDetails:38 - Hotel Name: Ellaa Hotel Gachibowli
+2019-09-18 14:41:39 INFO  BookingDetails:39 - Hotel Address: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032
+2019-09-18 14:41:39 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:41:39 INFO  BookingDetails:67 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:41:39 INFO  BookingDetails:67 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:41:39 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:41:39 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:41:39 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032 expectedHotelAddress is: Hyderabad
+2019-09-18 14:41:39 INFO  BookingDetails:108 - PASSED:  actualHotelAddress is: Hyderabad, India expectedHotelAddress is: Hyderabad
+2019-09-18 14:41:39 INFO  BookingDetails:85 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:41:39 INFO  BookingDetails:130 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 5, 4, 3.5, 3.5, 4.5, 4.5, 4, 4, 3.5, 4.5, 4, 4, 4, 3.5, 4, 4.5, 4.5, 3.5, 3.5]
+2019-09-18 14:41:39 INFO  BookingDetails:131 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:41:39 INFO  BookingDetails:149 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:41:39 INFO  BookingDetails:149 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:41:39 INFO  BookingDetails:168 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:41:39 INFO  BookingDetails:184 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:45:05 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:45:21 INFO  BookingDetails:83 - Hotel searched location is Hyderabad
+2019-09-18 14:45:21 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:45:48 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:45:48 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:45:53 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:45:53 INFO  BookingDetails:38 - Hotel Name: Ellaa Hotel Gachibowli
+2019-09-18 14:45:53 INFO  BookingDetails:39 - Hotel Address: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032
+2019-09-18 14:45:53 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:45:53 INFO  BookingDetails:66 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:45:53 INFO  BookingDetails:66 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:45:53 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:45:53 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:45:53 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032 expectedHotelAddress is: Hyderabad
+2019-09-18 14:45:53 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: Hyderabad, India expectedHotelAddress is: Hyderabad
+2019-09-18 14:45:53 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:45:53 INFO  BookingDetails:122 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 5, 4, 3.5, 3.5, 4.5, 4.5, 4, 4, 3.5, 4.5, 4, 4, 4, 3.5, 4, 4.5, 4.5, 3.5, 3.5]
+2019-09-18 14:45:53 INFO  BookingDetails:123 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:45:53 INFO  BookingDetails:143 - Failed: check in date not matched actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:45:53 INFO  BookingDetails:143 - Failed: check out date not matched actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:45:53 INFO  BookingDetails:159 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:45:53 INFO  BookingDetails:175 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:47:37 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:48:12 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:49:11 INFO  BookingDetails:83 - Hotel searched location is Hyderabad
+2019-09-18 14:49:11 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:49:47 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:50:24 INFO  BookingDetails:83 - Hotel searched location is Hyderabad
+2019-09-18 14:50:24 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:51:18 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:51:18 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:51:23 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:51:23 INFO  BookingDetails:38 - Hotel Name: Ellaa Hotel Gachibowli
+2019-09-18 14:51:23 INFO  BookingDetails:39 - Hotel Address: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032
+2019-09-18 14:51:23 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:51:24 INFO  BookingDetails:66 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:51:24 INFO  BookingDetails:66 - PASSED : actualHotelName is: Ellaa Hotel Gachibowli expectedHotelName is: Ellaa Hotel Gachibowli
+2019-09-18 14:51:24 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:51:24 INFO  BookingDetails:32 - PASSED : actualHotelCost is 56023 expectedHotelCost is 56023
+2019-09-18 14:51:24 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: #25 Hill Ridge Springs ISB Road Gachibowli, Hyderabad, 500032 expectedHotelAddress is: Hyderabad
+2019-09-18 14:51:24 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: Hyderabad, India expectedHotelAddress is: Hyderabad
+2019-09-18 14:51:24 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:51:24 INFO  BookingDetails:122 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 5, 4, 3.5, 3.5, 4.5, 4.5, 4, 4, 3.5, 4.5, 4, 4, 4, 3.5, 4, 4.5, 4.5, 3.5, 3.5]
+2019-09-18 14:51:24 INFO  BookingDetails:123 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+2019-09-18 14:51:24 INFO  BookingDetails:144 - Failed: check in date not matched actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:51:24 INFO  BookingDetails:144 - Failed: check out date not matched actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:51:24 INFO  BookingDetails:160 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:51:24 INFO  BookingDetails:176 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 14:53:33 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 14:53:54 INFO  BookingDetails:83 - Hotel searched location is Chennai
+2019-09-18 14:53:54 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 14:54:27 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 14:54:27 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 14:54:35 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 14:54:35 INFO  BookingDetails:38 - Hotel Name: Radisson Blu GRT Hotel
+2019-09-18 14:54:35 INFO  BookingDetails:39 - Hotel Address: # 531, GST Road, Chennai - Theni Hwy, Kannan Colony, St Thomas Mount, Chennai, Chennai, 600016
+2019-09-18 14:54:35 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 14:54:35 INFO  BookingDetails:66 - PASSED : actualHotelName is: Radisson Blu GRT Hotel expectedHotelName is: Radisson Blu GRT Hotel
+2019-09-18 14:54:35 INFO  BookingDetails:66 - PASSED : actualHotelName is: Radisson Blu GRT Hotel expectedHotelName is: Radisson Blu GRT Hotel
+2019-09-18 14:54:35 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: # 531, GST Road, Chennai - Theni Hwy, Kannan Colony, St Thomas Mount, Chennai, Chennai, 600016 expectedHotelAddress is: Chennai
+2019-09-18 14:54:35 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: Chennai, India expectedHotelAddress is: Chennai
+2019-09-18 14:54:35 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 14:54:35 INFO  BookingDetails:122 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4, 4.5, 4.5, 4.5, 4, 4.5, 4.5, 5, 4, 4.5, 5, 4.5, 4, 5, 4, 4, 4.5, 3.5, 4.5, 4.5, 3.5, 4, 4.5, 4.5, 4.5, 4, 4.5, 4, 4.5, 3.5]
+2019-09-18 14:54:35 INFO  BookingDetails:123 -  expectedHotelRatings is: [5, 5, 5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5]
+2019-09-18 14:54:35 INFO  BookingDetails:144 - Failed: check in date not matched actualDate is: 27October  expectedDate is: 27October
+2019-09-18 14:54:35 INFO  BookingDetails:144 - Failed: check out date not matched actualDate is: 30October  expectedDate is: 30October
+2019-09-18 14:54:35 INFO  BookingDetails:160 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 14:54:35 INFO  BookingDetails:176 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:16:58 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:17:10 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:17:10 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 15:17:44 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 15:17:44 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 15:17:49 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 15:17:49 INFO  BookingDetails:38 - Hotel Name: The Park New Delhi
+2019-09-18 15:17:49 INFO  BookingDetails:39 - Hotel Address: 15, Parliament Street, Near Connaught Place, New Delhi, 110001
+2019-09-18 15:17:49 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 15:17:49 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 15:17:49 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 15:17:49 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 15:17:49 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 15:17:49 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: 15, Parliament Street, Near Connaught Place, New Delhi, 110001 expectedHotelAddress is: Delhi
+2019-09-18 15:17:49 INFO  BookingDetails:102 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 15:17:49 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-18 15:17:49 INFO  BookingDetails:141 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 15:17:49 INFO  BookingDetails:141 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 15:17:49 INFO  BookingDetails:160 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 15:17:49 INFO  BookingDetails:176 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:21:31 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:21:47 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:21:47 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 15:22:14 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 15:22:14 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 15:22:20 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 15:22:20 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 15:22:20 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 15:22:20 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 15:22:20 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:22:20 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:22:20 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 15:22:20 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 15:22:20 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 15:22:20 INFO  BookingDetails:118 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 4.5, 2.5, 4.5, 4.5, 4.5, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 4, 4.5, 4.5, 3, 4.5, 4, 4, 4.5, 4, 5]
+2019-09-18 15:22:20 INFO  BookingDetails:119 -  expectedHotelRatings is: [5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3, 2.5]
+2019-09-18 15:22:20 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 15:22:20 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 15:22:20 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 15:22:20 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:35:32 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:36:03 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:36:03 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 15:36:29 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 15:36:29 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 15:36:34 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 15:36:34 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 15:36:34 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 15:36:34 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 15:36:34 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:36:34 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:36:34 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 15:36:34 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 15:36:34 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 15:36:34 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 15:36:34 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 15:36:34 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 15:36:34 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:44:27 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:44:49 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:44:49 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 15:45:23 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 15:45:23 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 15:45:30 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 15:45:30 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 15:45:30 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 15:45:30 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 15:45:30 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:45:30 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 15:45:30 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 15:45:30 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 15:45:30 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 15:45:30 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 15:45:30 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 15:45:30 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 15:45:30 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:57:54 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:58:07 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:58:07 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 15:58:40 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 15:58:40 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 15:58:47 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 15:58:47 INFO  BookingDetails:38 - Hotel Name: The Park New Delhi
+2019-09-18 15:58:47 INFO  BookingDetails:39 - Hotel Address: 15, Parliament Street, Near Connaught Place, New Delhi, 110001
+2019-09-18 15:58:47 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 15:58:47 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 15:58:47 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 15:58:47 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 15:58:47 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 15:58:47 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: 15, Parliament Street, Near Connaught Place, New Delhi, 110001 expectedHotelAddress is: Delhi
+2019-09-18 15:58:47 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 15:58:47 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-18 15:58:47 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 15:58:47 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 15:58:47 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 15:58:47 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 15:59:37 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 15:59:54 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 15:59:54 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:00:22 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:00:22 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:00:28 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:00:28 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:00:28 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:00:28 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:00:28 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:00:28 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:00:28 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:00:28 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:00:28 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:00:29 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:00:29 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:00:29 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:00:29 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:04:40 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:04:57 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:04:57 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:05:25 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:05:25 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:05:38 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:05:38 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:05:38 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:05:38 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:05:38 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:05:38 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:05:38 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:05:38 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:05:38 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:05:38 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:05:38 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:05:38 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:05:38 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:06:22 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:06:40 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:06:40 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:07:06 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:07:06 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:07:13 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:07:13 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:07:13 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:07:13 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:07:13 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:07:13 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:07:13 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:07:13 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:07:13 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:07:13 INFO  BookingDetails:135 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:07:13 INFO  BookingDetails:135 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:07:13 INFO  BookingDetails:150 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:07:13 INFO  BookingDetails:163 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:11:19 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:11:36 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:11:36 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:12:07 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:12:07 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:12:13 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:12:13 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:12:13 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:12:13 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:12:13 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:12:13 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:12:13 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:12:13 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:12:13 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:12:13 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:12:13 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:12:13 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:12:13 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:48:27 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:49:48 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:50:01 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:50:01 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:50:34 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:50:34 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:50:40 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:50:40 INFO  BookingDetails:38 - Hotel Name: The Park New Delhi
+2019-09-18 16:50:40 INFO  BookingDetails:39 - Hotel Address: 15, Parliament Street, Near Connaught Place, New Delhi, 110001
+2019-09-18 16:50:40 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:50:40 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 16:50:40 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 16:50:40 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 16:50:40 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 16:50:40 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: 15, Parliament Street, Near Connaught Place, New Delhi, 110001 expectedHotelAddress is: Delhi
+2019-09-18 16:50:40 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:50:40 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-18 16:50:40 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:50:40 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:50:40 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:50:40 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:51:23 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:51:40 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:51:40 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:52:09 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:52:09 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:52:15 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:52:15 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:52:15 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:52:15 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:52:15 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:52:15 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:52:15 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:52:15 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:52:15 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:52:15 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:52:15 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:52:15 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:52:15 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:55:43 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:56:45 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:56:58 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:56:58 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:57:30 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:57:30 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:57:38 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:57:38 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:57:38 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:57:38 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:57:38 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:57:38 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:57:38 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:57:38 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:57:38 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:57:38 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:57:38 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:57:38 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:57:38 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 16:58:11 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 16:58:23 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 16:58:23 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 16:58:49 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 16:58:49 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 16:58:54 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 16:58:54 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 16:58:54 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 16:58:54 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 16:58:54 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:58:54 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 16:58:54 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 16:58:54 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 16:58:54 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 16:58:54 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 16:58:54 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 16:58:54 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 16:58:54 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 17:00:51 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 17:01:07 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 17:01:07 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 17:01:34 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 17:01:34 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 17:01:39 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 17:01:39 INFO  BookingDetails:38 - Hotel Name: Pride Plaza Hotel Aerocity
+2019-09-18 17:01:39 INFO  BookingDetails:39 - Hotel Address: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037
+2019-09-18 17:01:39 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 17:01:39 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 17:01:39 INFO  BookingDetails:66 - PASSED : actualHotelName is: Pride Plaza Hotel Aerocity expectedHotelName is: Pride Plaza Hotel Aerocity
+2019-09-18 17:01:39 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: Asset 5A, Hospitality District, Aerocity, Indira Gandhi International Airport, New Delhi, 110037 expectedHotelAddress is: Delhi
+2019-09-18 17:01:39 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 17:01:39 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+2019-09-18 17:01:39 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 17:01:39 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 17:01:39 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 17:01:39 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+2019-09-18 17:05:15 INFO  BookingDetails:64 - https://www.yatra.com/ website opened
+2019-09-18 17:05:31 INFO  BookingDetails:83 - Hotel searched location is Delhi
+2019-09-18 17:05:31 INFO  BookingDetails:84 - check in date 27/10/2019 check out date30/10/2019
+2019-09-18 17:06:09 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+2019-09-18 17:06:09 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+2019-09-18 17:06:16 INFO  BookingDetails:37 - Booking Details:
+2019-09-18 17:06:16 INFO  BookingDetails:38 - Hotel Name: The Park New Delhi
+2019-09-18 17:06:16 INFO  BookingDetails:39 - Hotel Address: 15, Parliament Street, Near Connaught Place, New Delhi, 110001
+2019-09-18 17:06:16 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+2019-09-18 17:06:16 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 17:06:16 INFO  BookingDetails:66 - PASSED : actualHotelName is: The Park New Delhi expectedHotelName is: The Park New Delhi
+2019-09-18 17:06:16 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 17:06:16 INFO  BookingDetails:32 - PASSED : actualHotelCost is 109383 expectedHotelCost is 109383
+2019-09-18 17:06:16 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: 15, Parliament Street, Near Connaught Place, New Delhi, 110001 expectedHotelAddress is: Delhi
+2019-09-18 17:06:16 INFO  BookingDetails:98 - PASSED:  actualHotelAddress is: New Delhi, India expectedHotelAddress is: Delhi
+2019-09-18 17:06:16 INFO  BookingDetails:79 - PASSED:  actualHotelRating is: 4 expectedHotelRating is: 4
+2019-09-18 17:06:16 INFO  BookingDetails:136 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+2019-09-18 17:06:16 INFO  BookingDetails:136 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+2019-09-18 17:06:16 INFO  BookingDetails:151 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+2019-09-18 17:06:16 INFO  BookingDetails:164 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5

@@ -1,0 +1,165 @@
+# Created at 2019-09-18T11:11:15.125
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created at 2019-09-18T11:11:16.676
+Unexpected IOException with stream: 2019-09-18 11:11:16 INFO  BookingDetails:38 - user datails in roomNo.1 ram kumar
+
+
+# Created at 2019-09-18T11:11:16.680
+Unexpected IOException with stream: 2019-09-18 11:11:16 INFO  BookingDetails:39 - user datails in roomNo.2 ramesh krishna
+
+
+# Created at 2019-09-18T11:11:16.680
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,userInformation(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:16.684
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,paymentPageInformation(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.678
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:37 - Booking Details:
+
+
+# Created at 2019-09-18T11:11:23.682
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:38 - Hotel Name: Country Inn & Suites By Radisson, Mysore
+
+
+# Created at 2019-09-18T11:11:23.682
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:39 - Hotel Address: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016
+
+
+# Created at 2019-09-18T11:11:23.682
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:40 - no. of rooms: 2 no. of persons: 5
+
+
+# Created at 2019-09-18T11:11:23.686
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,paymentPageInformation(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.686
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateName(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.694
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:38 - PASSED : actualHotelName is: Country Inn & Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+
+
+# Created at 2019-09-18T11:11:23.698
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:41 - FAILED Hotel name not matched at payment page actualHotelName is: Country Inn &amp; Suites By Radisson, Mysore expectedHotelName is: Country Inn & Suites By Radisson, Mysore
+
+
+# Created at 2019-09-18T11:11:23.698
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateName(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.702
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateCost(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.702
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:25 - FAILED Cost is Not matched at payment actualHotelCost is 28801 expectedHotelCost is 28800
+
+
+# Created at 2019-09-18T11:11:23.706
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:25 - FAILED cost is Not matched at UPI actualHotelCost is 28801 expectedHotelCost is 28800
+
+
+# Created at 2019-09-18T11:11:23.706
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateCost(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.710
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validatePlace(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.714
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Plot No. 345/A Hebbal Electronic City, Near Infosys Campus, Mysore, Mysore, 570016 expectedHotelAddress is: Mysore
+
+
+# Created at 2019-09-18T11:11:23.714
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:65 - PASSED:  actualHotelAddress is: Mysore, India expectedHotelAddress is: Mysore
+
+
+# Created at 2019-09-18T11:11:23.714
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validatePlace(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.718
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateRating(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.722
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:49 - PASSED:  actualHotelRating is: 4.5 expectedHotelRating is: 4.5
+
+
+# Created at 2019-09-18T11:11:23.722
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateRating(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.726
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateSortByRatings(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.730
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:81 - FAILED: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4, 4, 4, 4.5, 4, 4, 3.5, 4.5, 4, 4, 3.5, 4.5, 4, 4.5, 4, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5]
+
+
+# Created at 2019-09-18T11:11:23.734
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:82 -  expectedHotelRatings is: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5, 3.5]
+
+
+# Created at 2019-09-18T11:11:23.734
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateSortByRatings(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.738
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateCheckIn(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.738
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:96 - PASSED:  actualDate is: 27October  expectedDate is: 27October
+
+
+# Created at 2019-09-18T11:11:23.742
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:96 - PASSED:  actualDate is: 30October  expectedDate is: 30October
+
+
+# Created at 2019-09-18T11:11:23.742
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateCheckIn(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.754
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateTotalRooms(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.758
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:109 - PASSED:  actualRooms is: 2 expectedRooms is: 2
+
+
+# Created at 2019-09-18T11:11:23.770
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateTotalRooms(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:23.770
+Unexpected IOException: 5,1,com.yatra.testscript.ValidateUserDetails,validateTotalMembers(com.yatra.testscript.ValidateUserDetails),com.yatra.testscript.ValidateUserDetails,null,null
+
+
+# Created at 2019-09-18T11:11:23.774
+Unexpected IOException with stream: 2019-09-18 11:11:23 INFO  BookingDetails:120 - PASSED:  actualTotalMembers is: 5 expectedTotalMembers is: 5
+
+
+# Created at 2019-09-18T11:11:23.774
+Unexpected IOException: 6,1,com.yatra.testscript.ValidateUserDetails,validateTotalMembers(com.yatra.testscript.ValidateUserDetails),null,null,null
+
+
+# Created at 2019-09-18T11:11:24.342
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

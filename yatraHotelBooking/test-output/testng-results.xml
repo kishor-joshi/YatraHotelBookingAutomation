@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+<testng-results skipped="0" failed="3" ignored="0" total="16" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="69711" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:41:13 IST">
+  <suite name="Suite1" duration-ms="62283" started-at="2019-09-18T17:00:37 IST" finished-at="2019-09-18T17:01:39 IST">
     <groups>
     </groups>
-    <test name="Test2" duration-ms="69711" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:41:13 IST">
+    <test name="Test2" duration-ms="62283" started-at="2019-09-18T17:00:37 IST" finished-at="2019-09-18T17:01:39 IST">
       <class name="com.yatra.testscript.ValidateUserDetails">
-        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="setBrowser" is-config="true" duration-ms="7770" started-at="2019-09-17T14:40:03 IST" finished-at="2019-09-17T14:40:11 IST">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="setBrowser" is-config="true" duration-ms="6926" started-at="2019-09-18T17:00:37 IST" finished-at="2019-09-18T17:00:44 IST">
           <params>
             <param index="0">
               <value>
@@ -18,67 +18,209 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method status="PASS" signature="bookingInforamtion()[pri:1, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="bookingInforamtion" duration-ms="24019" started-at="2019-09-17T14:40:11 IST" finished-at="2019-09-17T14:40:35 IST">
+        <test-method status="PASS" signature="bookingInforamtion()[pri:1, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="bookingInforamtion" duration-ms="23654" started-at="2019-09-18T17:00:44 IST" finished-at="2019-09-18T17:01:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookingInforamtion -->
-        <test-method status="PASS" signature="sortedByRating()[pri:2, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="sortedByRating" duration-ms="14895" started-at="2019-09-17T14:40:35 IST" finished-at="2019-09-17T14:40:50 IST">
+        <test-method status="PASS" signature="sortedByRating()[pri:2, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="sortedByRating" duration-ms="11846" started-at="2019-09-18T17:01:07 IST" finished-at="2019-09-18T17:01:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortedByRating -->
-        <test-method status="PASS" signature="hotelSelection()[pri:3, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="hotelSelection" duration-ms="1421" started-at="2019-09-17T14:40:50 IST" finished-at="2019-09-17T14:40:51 IST">
+        <test-method status="PASS" signature="hotelSelection()[pri:3, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="hotelSelection" duration-ms="1196" started-at="2019-09-18T17:01:19 IST" finished-at="2019-09-18T17:01:20 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelSelection -->
-        <test-method status="PASS" signature="switchToHotelTab()[pri:4, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="switchToHotelTab" duration-ms="101" started-at="2019-09-17T14:40:51 IST" finished-at="2019-09-17T14:40:51 IST">
+        <test-method status="PASS" signature="switchToHotelTab()[pri:4, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="switchToHotelTab" duration-ms="60" started-at="2019-09-18T17:01:20 IST" finished-at="2019-09-18T17:01:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- switchToHotelTab -->
-        <test-method status="PASS" signature="selectRooms()[pri:5, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="selectRooms" duration-ms="11287" started-at="2019-09-17T14:40:51 IST" finished-at="2019-09-17T14:41:03 IST">
+        <test-method status="PASS" signature="selectRooms()[pri:5, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="selectRooms" duration-ms="9667" started-at="2019-09-18T17:01:21 IST" finished-at="2019-09-18T17:01:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectRooms -->
-        <test-method status="PASS" signature="userInformation()[pri:6, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="userInformation" duration-ms="3593" started-at="2019-09-17T14:41:03 IST" finished-at="2019-09-17T14:41:06 IST">
+        <test-method status="PASS" signature="userInformation()[pri:6, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="userInformation" duration-ms="3349" started-at="2019-09-18T17:01:30 IST" finished-at="2019-09-18T17:01:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userInformation -->
-        <test-method status="PASS" signature="paymentPageInformation()[pri:7, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="paymentPageInformation" duration-ms="6477" started-at="2019-09-17T14:41:06 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="PASS" signature="paymentPageInformation()[pri:7, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="paymentPageInformation" duration-ms="5451" started-at="2019-09-18T17:01:34 IST" finished-at="2019-09-18T17:01:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymentPageInformation -->
-        <test-method status="PASS" signature="validateName()[pri:8, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateName" duration-ms="8" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="FAIL" signature="validateCostAtUPI()[pri:9, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateCostAtUPI" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[cost is Not matched at UPI actualHotelCost is 61274 expectedHotelCost is 61273 expected [61273] but found [61274]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: cost is Not matched at UPI actualHotelCost is 61274 expectedHotelCost is 61273 expected [61273] but found [61274]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.yatra.utility.Validation.validateCost(Validation.java:31)
+at com.yatra.base.ValidationScript.validateHotelCostAtUPI(ValidationScript.java:62)
+at com.yatra.testscript.validateHotelDetails.validateCostAtUPI(validateHotelDetails.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCostAtUPI -->
+        <test-method status="PASS" signature="validateName()[pri:8, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateName" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateName -->
-        <test-method status="PASS" signature="validateCost()[pri:9, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateCost" duration-ms="8" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="FAIL" signature="validateCostAtpaymentpage()[pri:9, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateCostAtpaymentpage" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cost is Not matched at payment actualHotelCost is 61274 expectedHotelCost is 61273 expected [61273] but found [61274]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cost is Not matched at payment actualHotelCost is 61274 expectedHotelCost is 61273 expected [61273] but found [61274]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at com.yatra.utility.Validation.validateCost(Validation.java:31)
+at com.yatra.base.ValidationScript.validateHotelCostAtPayment(ValidationScript.java:55)
+at com.yatra.testscript.validateHotelDetails.validateCostAtpaymentpage(validateHotelDetails.java:26)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCost -->
-        <test-method status="PASS" signature="validatePlace()[pri:10, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validatePlace" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validatePlace -->
-        <test-method status="PASS" signature="validateRating()[pri:11, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateRating" duration-ms="4" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateRating -->
-        <test-method status="PASS" signature="validateSortByRatings()[pri:12, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateSortByRatings" duration-ms="3" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        </test-method> <!-- validateCostAtpaymentpage -->
+        <test-method status="FAIL" signature="validateSortByRatings()[pri:12, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateSortByRatings" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 4.5, 2.5, 4.5, 4.5, 4.5, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 4, 4.5, 4.5, 3, 4.5, 4, 4, 4.5, 4, 5] actualHotelRatings is: [4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 4.5, 2.5, 4.5, 4.5, 4.5, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 4, 4.5, 4.5, 3, 4.5, 4, 4, 4.5, 4, 5]: Lists differ at element [0]: 5 != 4.5 expected [5] but found [4.5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Sorted by star Rating not met actualHotelRatings is: [4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 4.5, 2.5, 4.5, 4.5, 4.5, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 4, 4.5, 4.5, 3, 4.5, 4, 4, 4.5, 4, 5] actualHotelRatings is: [4.5, 4.5, 4.5, 4, 4, 4.5, 4.5, 4.5, 2.5, 4.5, 4.5, 4.5, 4, 4.5, 4, 3.5, 3.5, 4, 4, 4, 4, 4.5, 4.5, 3, 4.5, 4, 4, 4.5, 4, 5]: Lists differ at element [0]: 5 != 4.5 expected [5] but found [4.5]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:1033)
+at com.yatra.utility.Validation.validateRating(Validation.java:112)
+at com.yatra.base.ValidationScript.validateHotelRatings(ValidationScript.java:69)
+at com.yatra.testscript.ValidateUserDetails.validateSortByRatings(ValidateUserDetails.java:16)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSortByRatings -->
-        <test-method status="PASS" signature="validateCheckIn()[pri:13, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateCheckIn" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="PASS" signature="validateRating()[pri:11, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateRating" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRating -->
+        <test-method status="PASS" signature="validatePlace()[pri:10, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validatePlace" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePlace -->
+        <test-method status="PASS" signature="validateCheckIn()[pri:13, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateCheckIn" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckIn -->
-        <test-method status="PASS" signature="validateTotalRooms()[pri:14, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateTotalRooms" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="PASS" signature="validateTotalRooms()[pri:14, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateTotalRooms" duration-ms="0" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTotalRooms -->
-        <test-method status="PASS" signature="validateTotalMembers()[pri:15, instance:com.yatra.testscript.ValidateUserDetails@7ce6a65d]" name="validateTotalMembers" duration-ms="2" started-at="2019-09-17T14:41:13 IST" finished-at="2019-09-17T14:41:13 IST">
+        <test-method status="PASS" signature="validateTotalMembers()[pri:15, instance:com.yatra.testscript.ValidateUserDetails@13c27452]" name="validateTotalMembers" duration-ms="15" started-at="2019-09-18T17:01:39 IST" finished-at="2019-09-18T17:01:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTotalMembers -->
       </class> <!-- com.yatra.testscript.ValidateUserDetails -->
     </test> <!-- Test2 -->
   </suite> <!-- Suite1 -->
+  <suite name="Test-class Suite" duration-ms="0" started-at="2019-09-18T17:01:40 IST" finished-at="2019-09-18T17:01:40 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Test-class Suite -->
 </testng-results>

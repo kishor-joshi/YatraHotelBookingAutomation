@@ -22,8 +22,11 @@ public void validateName(){
  * validates Hotel prices.
  */
 @Test(priority=9)
-public void validateCost() {
+public void validateCostAtpaymentpage() {
 	validate.validateHotelCostAtPayment();
+}
+@Test(priority=9)
+public void validateCostAtUPI() {
 	validate.validateHotelCostAtUPI();
 }
 
@@ -35,6 +38,7 @@ public void validatePlace() {
 	validate.validateLocationAtBookingPage();
 	validate.validateLocationAtPaymentPage();
 }
+
 
 /**
  * validates hotel rating

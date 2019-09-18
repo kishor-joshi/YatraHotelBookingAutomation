@@ -14,6 +14,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import com.yatra.extendreport.YatraExtendReport;
 import com.yatra.utility.Constants;
 
 public class BaseClass {

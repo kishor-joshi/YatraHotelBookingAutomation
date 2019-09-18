@@ -6,19 +6,10 @@
     <classes>
       <class name="com.yatra.testscript.ValidateUserDetails">
         <methods>
-          <include name="switchToHotelTab"/>
-          <include name="validateCost"/>
-          <include name="selectRooms"/>
-          <include name="validateCheckIn"/>
-          <include name="validateRating"/>
-          <include name="hotelSelection"/>
-          <include name="paymentPageInformation"/>
-          <include name="userInformation"/>
-          <include name="sortedByRating"/>
+          <include name="validateCostAtUPI"/>
           <include name="validateSortByRatings"/>
-          <include name="bookingInforamtion"/>
+          <include name="validateCostAtpaymentpage"/>
           <include name="setBrowser"/>
-          <include name="validatePlace"/>
         </methods>
       </class> <!-- com.yatra.testscript.ValidateUserDetails -->
     </classes>

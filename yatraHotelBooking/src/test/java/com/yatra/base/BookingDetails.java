@@ -79,6 +79,7 @@ public class BookingDetails extends BaseClass {
 		driver.findElement(By.xpath(prop.getProperty("adultbuttonplus"))).click();
 		driver.findElement(By.xpath(prop.getProperty("addroom"))).click();
 		driver.findElement(By.xpath(prop.getProperty("searchhotelbutton"))).click();
+		//logger=extent.startTest("HomePageBooking passed");
 		log.info("Hotel searched location is " + getData[1][0]);
 		log.info("check in date " + getData[1][1] + " check out date" + getData[1][2]);
 	}
